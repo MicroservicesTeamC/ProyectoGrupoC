@@ -1,4 +1,4 @@
-﻿namespace GrupoC.AlbaranDeEntrega.Models
+﻿namespace GrupoC.Search.Models
 {
     public class Producto
     {

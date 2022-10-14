@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProductos", "TestProduc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrupoC.AlbaranDeEntrega", "ProyectoGrupoC\GrupoC.AlbaranDeEntrega.csproj", "{AF31B2D3-6405-46FC-81D1-DAD11E2DC632}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrupoC.Search", "GrupoC.Search\GrupoC.Search.csproj", "{D5D68967-8476-4040-9773-CEC5DFDFEC51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{AF31B2D3-6405-46FC-81D1-DAD11E2DC632}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF31B2D3-6405-46FC-81D1-DAD11E2DC632}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF31B2D3-6405-46FC-81D1-DAD11E2DC632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5D68967-8476-4040-9773-CEC5DFDFEC51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D68967-8476-4040-9773-CEC5DFDFEC51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D68967-8476-4040-9773-CEC5DFDFEC51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D68967-8476-4040-9773-CEC5DFDFEC51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

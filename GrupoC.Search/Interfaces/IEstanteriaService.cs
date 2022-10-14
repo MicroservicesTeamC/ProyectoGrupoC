@@ -1,6 +1,6 @@
-﻿using GrupoC.AlbaranDeEntrega.Models;
+﻿using GrupoC.Search.Models;
 
-namespace GrupoC.AlbaranDeEntrega.Interfaces
+namespace GrupoC.Search.Interfaces
 {
     public interface IEstanteriaService
     {

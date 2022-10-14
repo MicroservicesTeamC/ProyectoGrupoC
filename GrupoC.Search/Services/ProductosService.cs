@@ -1,8 +1,8 @@
-﻿using GrupoC.AlbaranDeEntrega.Interfaces;
-using GrupoC.AlbaranDeEntrega.Models;
+﻿using GrupoC.Search.Interfaces;
+using GrupoC.Search.Models;
 using Newtonsoft.Json;
 
-namespace GrupoC.AlbaranDeEntrega.Services
+namespace GrupoC.Search.Services
 {
     public class ProductosService : IProductoService
     {

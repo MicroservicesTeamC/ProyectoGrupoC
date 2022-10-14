@@ -1,8 +1,8 @@
-﻿namespace GrupoC.Estanteria.Models
+﻿namespace GrupoC.AlbaranDeEntrega.Models
 {
-    public class EstanteriaItem
+    public class AlbaranItem
     {
-        public string EstanteriaId { get; set; }
+        public string AlbaranId { get; set; }
         public int Id { get; set; }
         public string ProductoId { get; set; }
         public int Cantidad { get; set; }
