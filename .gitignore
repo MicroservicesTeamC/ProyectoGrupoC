@@ -10,31 +10,31 @@
 *.sln.docstates
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
+Debug/
+DebugPublic/
+Release/
+Releases/
 x64/
 x86/
 build/
 bld/
-[Bb]in/
-[Oo]bj/
+Bin/
+Obj/
 
 # Roslyn cache directories
 *.ide/
 
 # MSTest test Results
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
+TestResult*/
+BuildLog.*
 
 #NUNIT
 *.VisualState.xml
 TestResult.xml
 
 # Build Results of an ATL Project
-[Dd]ebugPS/
-[Rr]eleasePS/
+DebugPS/
+ReleasePS/
 dlldata.c
 
 *_i.c
@@ -110,7 +110,7 @@ AutoTest.Net/
 .sass-cache/
 
 # Installshield output folder
-[Ee]xpress/
+Express/
 
 # DocProject is a documentation generator add-in
 DocProject/buildhelp/

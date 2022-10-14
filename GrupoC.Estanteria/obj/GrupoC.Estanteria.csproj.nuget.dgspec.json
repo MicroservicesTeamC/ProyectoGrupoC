@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juanp\\Source\\Repos\\ProyectoGrupoCfi\\GrupoC.Estanteria\\GrupoC.Estanteria.csproj": {}
+    "C:\\Users\\lewis\\source\\repos\\ProyectoGrupoC\\GrupoC.Estanteria\\GrupoC.Estanteria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juanp\\Source\\Repos\\ProyectoGrupoCfi\\GrupoC.Estanteria\\GrupoC.Estanteria.csproj": {
+    "C:\\Users\\lewis\\source\\repos\\ProyectoGrupoC\\GrupoC.Estanteria\\GrupoC.Estanteria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juanp\\Source\\Repos\\ProyectoGrupoCfi\\GrupoC.Estanteria\\GrupoC.Estanteria.csproj",
+        "projectUniqueName": "C:\\Users\\lewis\\source\\repos\\ProyectoGrupoC\\GrupoC.Estanteria\\GrupoC.Estanteria.csproj",
         "projectName": "GrupoC.Estanteria",
-        "projectPath": "C:\\Users\\juanp\\Source\\Repos\\ProyectoGrupoCfi\\GrupoC.Estanteria\\GrupoC.Estanteria.csproj",
-        "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juanp\\Source\\Repos\\ProyectoGrupoCfi\\GrupoC.Estanteria\\obj\\",
+        "projectPath": "C:\\Users\\lewis\\source\\repos\\ProyectoGrupoC\\GrupoC.Estanteria\\GrupoC.Estanteria.csproj",
+        "packagesPath": "C:\\Users\\lewis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lewis\\Source\\Repos\\ProyectoGrupoC\\GrupoC.Estanteria\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "F:\\VSCOMPARTIDOS\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lewis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,8 +55,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -70,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     }
