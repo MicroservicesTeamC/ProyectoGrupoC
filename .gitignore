@@ -24,6 +24,19 @@
 *Bin
 *obj
 *Obj/
+Grupo5.Producto/bin
+Grupo5.Producto/obj
+GrupoC.AlbaranDeEntrega/bin
+GrupoC.AlbaranDeEntrega/obj
+GrupoC.Estanteria/bin
+GrupoC.Estanteria/obj
+ProyectoGrupoC/bin
+ProyectoGrupoC/obj
+TestEstanteria/bin
+TestEstanteria/obj
+TestProductos/bin
+TestProductos/obj
+.vs
 
 # Roslyn cache directories
 *.ide/
