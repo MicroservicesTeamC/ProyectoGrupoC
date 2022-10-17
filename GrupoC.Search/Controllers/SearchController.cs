@@ -26,7 +26,7 @@ namespace GrupoC.Search.Controllers
             if (string.IsNullOrWhiteSpace(estanteriaId)) return BadRequest();
             try
             {
-                var estanteria = await estanteriaService.GetAsync(estanteriaId);
+                 var estanteria = await estanteriaService.GetAsync(estanteriaId);
                 var albaranes = await albaranService.GetAsync(estanteriaId);
                 foreach(var albaran in albaranes)
                 {

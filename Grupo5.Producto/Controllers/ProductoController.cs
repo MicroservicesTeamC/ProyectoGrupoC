@@ -32,7 +32,7 @@ namespace Grupo5.Producto.Controllers
         {
             var result = await _productosRepository.GetAllAsync();
 
-            if (result != null)
+            if (result.Count > 0)
             {
                 return Ok(result);
             }

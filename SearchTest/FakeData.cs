@@ -41,9 +41,13 @@ namespace SearchTest
 
     class EstanteriasFake : IEstanteriaService
     {
+        public List<Estanteria> lista = new List<Estanteria>();
         public Task<Estanteria?> GetAsync(string estanteriaId)
         {
-            throw new NotImplementedException();
+            lista.Add(new Estanteria() { Id = "1", Name = "Estanteria Principal", Capacidad = 5 });
+            lista.Add(new Estanteria() { Id = "2", Name = "Estanteria 2", Capacidad = 5 });
+
+            return Task.FromResult(lista.FirstOrDefault(x => x.Id.Equals("1")));
         }
     }
 

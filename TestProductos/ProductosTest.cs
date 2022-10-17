@@ -48,8 +48,8 @@ namespace TestProductos
         [TestMethod]
         public void GetAllAsyncReturnsNotOK()
         {
-            var productosRepository = new ProductoRepository();
-            
+            var productosRepository = new ProductoRepository("hola");
+
             var productosController = new ProductoController(productosRepository);
 
             var result = productosController.GetAllAsync().Result;

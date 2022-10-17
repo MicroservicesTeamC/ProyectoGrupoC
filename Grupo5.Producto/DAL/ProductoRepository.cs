@@ -19,6 +19,9 @@ namespace Grupo5.Producto.DAL
                 });
             }
         }
+        public ProductoRepository(string CreacionRepositoriVacio) 
+        { 
+        }
         public Task<Productos> GetAsync(string id)
         {
             var product = repo.FirstOrDefault(p => p.Id == id);

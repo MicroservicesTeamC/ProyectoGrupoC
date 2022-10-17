@@ -21,10 +21,12 @@ namespace SearchTest
                 productoService,
                 albaranService);
 
-            var resultCaducidad = searchController.CaducidadAsync();
-            var resultAlbaran = searchController.AlbaranAsync("1");
+            var resultCaducidad = searchController.CaducidadAsync().Result;
+            var resultAlbaran = searchController.AlbaranAsync("1").Result;
             Assert.IsNotNull(resultCaducidad);
+            Assert.IsInstanceOfType(resultCaducidad, typeof(OkObjectResult));
             Assert.IsNotNull(resultAlbaran);
+            Assert.IsInstanceOfType(resultAlbaran, typeof(OkObjectResult));
         }
 
         [TestMethod]
@@ -39,11 +41,14 @@ namespace SearchTest
                 productoService,
                 albaranService);
 
-            var resultAlbaran = searchController.AlbaranAsync("666");
-            var resultCaducidad = searchController.CaducidadAsync();
+            var resultAlbaran = searchController.AlbaranAsync("666").Result;
+            var resultCaducidad = searchController.CaducidadAsync().Result;
 
             Assert.IsNotNull(resultCaducidad);
+            Assert.IsInstanceOfType(resultCaducidad, typeof(BadRequestObjectResult));
             Assert.IsNotNull(resultAlbaran);
+            Assert.IsInstanceOfType(resultAlbaran, typeof(BadRequestObjectResult));
         }
+    
     }
 }
