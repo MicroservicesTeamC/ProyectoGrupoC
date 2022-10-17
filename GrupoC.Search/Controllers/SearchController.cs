@@ -26,9 +26,9 @@ namespace GrupoC.Search.Controllers
             if (string.IsNullOrWhiteSpace(estanteriaId)) return BadRequest();
             try
             {
-                 var estanteria = await estanteriaService.GetAsync(estanteriaId);
+                var estanteria = await estanteriaService.GetAsync(estanteriaId);
                 var albaranes = await albaranService.GetAsync(estanteriaId);
-                foreach(var albaran in albaranes)
+                foreach (var albaran in albaranes)
                 {
                     foreach (var item in albaran.Productos)
                     {
@@ -36,10 +36,16 @@ namespace GrupoC.Search.Controllers
                         item.Producto = product;
                     }
                 }
+
+                if (albaranes != null)
+                {
+                    return Ok(albaranes);
+                }
+                else
+                {
+                    return NotFound();
+                }
                 
-
-
-                return Ok(albaranes);
             }
             catch (Exception)
             {
@@ -60,7 +66,16 @@ namespace GrupoC.Search.Controllers
                     caducados = caducados,
                     noCaducados = noCaducados
                 };
-                return Ok(resultado);
+
+                if (resultado != null)
+                {
+                    return Ok(resultado);
+                }
+                else
+                {
+                    return NotFound();
+                }
+                
             }
             catch (Exception)
             {

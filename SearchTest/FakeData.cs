@@ -58,7 +58,18 @@ namespace SearchTest
             new Albaran()
             {
                 Id = "1",
-                AlbaranDate = DateTime.Now
+                AlbaranDate = DateTime.Now,
+                Productos = new List<AlbaranItem>()
+                {
+                    new AlbaranItem()
+                    {
+                        Id = 1,
+                        AlbaranId = "1",
+                        Producto = new Producto(),
+                        Cantidad = 2,
+                        ProductoId = "1"
+                    }
+                }
             }
         };
         public Task<ICollection<Albaran>> GetAsync(string estanteriaId)
