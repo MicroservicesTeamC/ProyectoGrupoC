@@ -26,5 +26,20 @@ namespace GrupoC.Search.Services
             }
             return null;
         }
+
+        public async Task<List<Producto>> GetAllAsync()
+        {
+            var client = httpClientFactory.CreateClient("productosService");
+
+            var response = await client.GetAsync($"api/Producto/all");
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                var products = JsonConvert.DeserializeObject<List<Producto>>(content);
+
+                return products;
+            }
+            return null;
+        }
     }
 }

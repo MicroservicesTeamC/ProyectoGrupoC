@@ -46,5 +46,26 @@ namespace GrupoC.Search.Controllers
                 throw;
             }
         }
+
+        [HttpGet("caducidad")]
+        public async Task<IActionResult> CaducidadAsync()
+        {
+            try
+            {
+                var productos = await productoService.GetAllAsync();
+                var caducados = productos.FindAll(x => x.Caducidad <= DateTime.Now).ToList();
+                var noCaducados = productos.FindAll(x => x.Caducidad > DateTime.Now).ToList();
+                var resultado = new
+                {
+                    caducados = caducados,
+                    noCaducados = noCaducados
+                };
+                return Ok(resultado);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
 }

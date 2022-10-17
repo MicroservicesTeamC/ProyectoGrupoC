@@ -26,5 +26,18 @@ namespace Grupo5.Producto.Controllers
 
             return NotFound();
         }
+
+        [HttpGet("all")]
+        public async Task<IActionResult> GetAllAsync()
+        {
+            var result = await _productosRepository.GetAllAsync();
+
+            if (result != null)
+            {
+                return Ok(result);
+            }
+
+            return NotFound();
+        }
     }
 }
