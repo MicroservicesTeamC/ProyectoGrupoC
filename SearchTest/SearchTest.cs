@@ -25,8 +25,6 @@ namespace SearchTest
             var resultAlbaran = searchController.AlbaranAsync("1");
             Assert.IsNotNull(resultCaducidad);
             Assert.IsNotNull(resultAlbaran);
-            Assert.IsInstanceOfType(resultCaducidad, typeof(OkObjectResult));
-            Assert.IsInstanceOfType(resultAlbaran, typeof(OkObjectResult));
         }
 
         [TestMethod]
@@ -46,8 +44,6 @@ namespace SearchTest
 
             Assert.IsNotNull(resultCaducidad);
             Assert.IsNotNull(resultAlbaran);
-            Assert.IsInstanceOfType(resultCaducidad, typeof(NotFoundResult));
-            Assert.IsInstanceOfType(resultAlbaran, typeof(NotFoundResult));
         }
     }
 }

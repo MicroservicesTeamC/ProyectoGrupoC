@@ -43,7 +43,7 @@ namespace GrupoC.Search.Controllers
             }
             catch (Exception)
             {
-                throw;
+                return BadRequest();
             }
         }
 
@@ -64,7 +64,7 @@ namespace GrupoC.Search.Controllers
             }
             catch (Exception)
             {
-                throw;
+                return BadRequest();
             }
         }
     }
