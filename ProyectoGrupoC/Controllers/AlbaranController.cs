@@ -17,7 +17,7 @@ namespace GrupoC.AlbaranDeEntrega.Controllers
         public async Task<IActionResult> GetAsync(string estanteriaId)
         {
             var result = await albaranProvider.GetAsnyc(estanteriaId);
-            if (result != null) return Ok(result);
+            if (result.Count != 0) return Ok(result);
             return NotFound();
         }
     }
