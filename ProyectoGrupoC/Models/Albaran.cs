@@ -2,9 +2,9 @@
 {
     public class Albaran
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         public DateTime AlbaranDate { get; set; }   
-        public string EstanteriaId { get; set; }
+        public int EstanteriaId { get; set; }
         public List<AlbaranItem> Productos { get; set; }
     }
 }

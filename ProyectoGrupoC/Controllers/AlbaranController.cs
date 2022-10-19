@@ -14,7 +14,7 @@ namespace GrupoC.AlbaranDeEntrega.Controllers
         }
 
         [HttpGet("{estanteriaId}")]
-        public async Task<IActionResult> GetAsync(string estanteriaId)
+        public async Task<IActionResult> GetAsync(int estanteriaId)
         {
             var result = await albaranProvider.GetAsnyc(estanteriaId);
             if (result.Count != 0) return Ok(result);
