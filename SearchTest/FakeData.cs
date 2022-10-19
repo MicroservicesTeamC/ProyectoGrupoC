@@ -11,7 +11,11 @@ namespace SearchTest
 
     class ProductosFake : IProductoService
     {
-        public static List<Producto> productos = new()
+        public static List<Producto> productos = new();
+
+        public ProductosFake()
+        {
+            productos = new()
             {
                 new Producto()
                 {
@@ -26,6 +30,11 @@ namespace SearchTest
                     Caducidad = new DateTime(2022, 10, 28)
                 }
             };
+        }
+        public ProductosFake(string fakeDataVacia)
+        {
+            
+        }
 
         public Task<Producto?> GetAsync(string id)
         {
@@ -53,7 +62,10 @@ namespace SearchTest
 
     class AlbaranFake : IAlbaranService
     {
-        private List<Albaran> albaranes = new()
+        private List<Albaran> albaranes;
+        public AlbaranFake()
+        {
+            albaranes = new()
         {
             new Albaran()
             {
@@ -72,9 +84,16 @@ namespace SearchTest
                 }
             }
         };
+        }
+        public AlbaranFake(string repoVacio)
+        {
+            albaranes = null;
+        }
+
         public Task<ICollection<Albaran>> GetAsync(string estanteriaId)
         {
             ICollection<Albaran> coleccion = albaranes;
+
             return Task.FromResult(coleccion);
         }
     }
