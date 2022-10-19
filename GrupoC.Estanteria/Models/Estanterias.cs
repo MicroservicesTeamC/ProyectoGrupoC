@@ -1,4 +1,6 @@
-﻿namespace GrupoC.Estanteria.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace GrupoC.Estanteria.Models
 {
     public class Estanterias
     {
