@@ -1,6 +1,31 @@
+using Azure.Core;
+using Azure.Identity;
+using Azure.Security.KeyVault.Secrets;
+using GrupoC.AlbaranDeEntrega.Context;
 using GrupoC.AlbaranDeEntrega.DAL;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+ConfigurationManager Configuration = builder.Configuration;
+
+SecretClientOptions options = new SecretClientOptions()
+{
+    Retry =
+    {
+        Delay= TimeSpan.FromSeconds(2),
+        MaxDelay = TimeSpan.FromSeconds(16),
+        MaxRetries = 5,
+        Mode = RetryMode.Exponential
+    }
+};
+var client = new SecretClient(new Uri("https://clavesgrupoc.vault.azure.net/"), new DefaultAzureCredential(), options);
+
+KeyVaultSecret secret = client.GetSecret("ConnectionStringAlbaranes");
+
+string secretValue = secret.Value;
+
 
 // Add services to the container.
 
@@ -9,6 +34,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IAlbaranProvider, AlbaranProvider>();
+builder.Services.AddDbContext<AlbaranContext>(options =>
+                    options.UseSqlServer(secretValue)
+);
 
 var app = builder.Build();
 
