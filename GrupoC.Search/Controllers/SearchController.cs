@@ -28,17 +28,19 @@ namespace GrupoC.Search.Controllers
             {
                 var estanteria = await estanteriaService.GetAsync(estanteriaId);
                 var albaranes = await albaranService.GetAsync(estanteriaId);
-                foreach (var albaran in albaranes)
-                {
-                    foreach (var item in albaran.Productos)
-                    {
-                        var product = await productoService.GetAsync(item.ProductoId);
-                        item.Producto = product;
-                    }
-                }
+                
+               
 
                 if (albaranes != null)
                 {
+                    foreach (var albaran in albaranes)
+                    {
+                        foreach (var item in albaran.Productos)
+                        {
+                            var product = await productoService.GetAsync(item.ProductoId);
+                            item.Producto = product;
+                        }
+                    }
                     return Ok(albaranes);
                 }
                 else
@@ -67,7 +69,7 @@ namespace GrupoC.Search.Controllers
                     noCaducados = noCaducados
                 };
 
-                if (resultado != null)
+                if (resultado.caducados.Count > 0 && resultado.caducados.Count > 0)
                 {
                     return Ok(resultado);
                 }

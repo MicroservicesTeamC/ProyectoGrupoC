@@ -29,12 +29,12 @@ namespace SearchTest
             Assert.IsInstanceOfType(resultAlbaran, typeof(OkObjectResult));
         }
 
-        [TestMethod]
+     [TestMethod]
         public void GetAsyncReturnsNotOK()
         {
             IEstanteriaService estanteriaService = new EstanteriasFake();
-            IProductoService productoService = new ProductosFake();
-            IAlbaranService albaranService = new AlbaranFake();
+            IProductoService productoService = new ProductosFake("test");
+            IAlbaranService albaranService = new AlbaranFake("test");
 
             var searchController = new SearchController(
                 estanteriaService,
@@ -45,10 +45,30 @@ namespace SearchTest
             var resultCaducidad = searchController.CaducidadAsync().Result;
 
             Assert.IsNotNull(resultCaducidad);
-            Assert.IsInstanceOfType(resultCaducidad, typeof(BadRequestObjectResult));
+            Assert.IsInstanceOfType(resultCaducidad, typeof(NotFoundResult));
             Assert.IsNotNull(resultAlbaran);
-            Assert.IsInstanceOfType(resultAlbaran, typeof(BadRequestObjectResult));
+            Assert.IsInstanceOfType(resultAlbaran, typeof(NotFoundResult));
         }
-    
+
+        [TestMethod]
+        public void GetAsyncReturnsBadRequest()
+        {
+            IEstanteriaService estanteriaService = new EstanteriasFake();
+            IProductoService productoService = new ProductosFake();
+            IAlbaranService albaranService = new AlbaranFake(" ");
+
+            var searchController = new SearchController(
+                estanteriaService,
+                productoService,
+                albaranService);
+
+            var resultAlbaran = searchController.AlbaranAsync(" ").Result;
+
+
+            Assert.IsNotNull(resultAlbaran);
+            Assert.IsInstanceOfType(resultAlbaran, typeof(BadRequestResult));
+
+        }
+
     }
 }
