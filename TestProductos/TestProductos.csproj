@@ -16,7 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Grupo5.Producto\GrupoC.Producto.csproj" />
     <ProjectReference Include="..\GrupoC.Producto\GrupoC.Producto.csproj" />
   </ItemGroup>
 

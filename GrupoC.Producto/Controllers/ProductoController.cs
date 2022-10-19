@@ -1,5 +1,5 @@
-﻿using GrupoC.Producto.Data.Repository;
-using GrupoC.Producto.Data.Repository.Interfaces;
+﻿using GrupoC.Producto.DAL;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace GrupoC.Producto.Controllers
@@ -23,18 +23,18 @@ namespace GrupoC.Producto.Controllers
 
         [HttpGet]
         [Route("getAll")]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAllAsync()
         {
-            var productos = await _productoRepository.GetAll();
+            var productos = await _productoRepository.GetAllAsync();
         
             return Ok(productos);         
         }
 
         [HttpGet]
         [Route("getProducto")]
-        public async Task<IActionResult> GetProducto(int id)
+        public async Task<IActionResult> GetAsync(int id)
         {
-            var producto = await _productoRepository.GetProducto(id);
+            var producto = await _productoRepository.GetAsync(id);
 
             if (producto == null)
             {
@@ -45,45 +45,45 @@ namespace GrupoC.Producto.Controllers
         }
 
 
-        [HttpPost]
-        [Route("addProducto")]
-        public async Task<IActionResult> Create(Models.Producto request)
-        {
-            var result = await _productoRepository.Create(request);
-            return Ok(result);
-        }
+        //[HttpPost]
+        //[Route("addProducto")]
+        //public async Task<IActionResult> Create(Models.Producto request)
+        //{
+        //    var result = await _productoRepository.Create(request);
+        //    return Ok(result);
+        //}
 
-        [HttpPut]
-        [Route("updateProducto")]
-        public async Task<IActionResult> Update(Models.Producto request)
-        {
-            var product = await _productoRepository.GetProducto(request.Id);
-            if (product == null)
-            {
-                return NotFound();
-            }
+        //[HttpPut]
+        //[Route("updateProducto")]
+        //public async Task<IActionResult> Update(Models.Producto request)
+        //{
+        //    var product = await _productoRepository.GetProducto(request.Id);
+        //    if (product == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            if (ModelState.IsValid)
-            {
-                await _productoRepository.Update(product);
-                product.Nombre = request.Nombre;
-                product.Precio = request.Precio;
-                product.TipoProducto = request.TipoProducto;
-                product.FechaAlta = request.FechaAlta;
+        //    if (ModelState.IsValid)
+        //    {
+        //        await _productoRepository.Update(product);
+        //        product.Nombre = request.Nombre;
+        //        product.Precio = request.Precio;
+        //        product.TipoProducto = request.TipoProducto;
+        //        product.FechaAlta = request.FechaAlta;
 
-                return Ok(product);
-            }
-            return BadRequest();
-        }
+        //        return Ok(product);
+        //    }
+        //    return BadRequest();
+        //}
 
-        [HttpPut]
-        [Route("deleteProducto")]
-        public async Task<IActionResult> Delete(int id)
-        {
-            var result = await _productoRepository.Delete(id);
-            if (result)
-                return Ok(result);
-            return BadRequest("No product found");
-        }
+        //[HttpPut]
+        //[Route("deleteProducto")]
+        //public async Task<IActionResult> Delete(int id)
+        //{
+        //    var result = await _productoRepository.Delete(id);
+        //    if (result)
+        //        return Ok(result);
+        //    return BadRequest("No product found");
+        //}
     }
 }

@@ -1,5 +1,4 @@
-using GrupoC.Producto.Data.Repository;
-using GrupoC.Producto.Data.Repository.Interfaces;
+using GrupoC.Producto.DAL;
 using Microsoft.EntityFrameworkCore;
 using System.Configuration;
 using ConfigurationManager = Microsoft.Extensions.Configuration.ConfigurationManager;

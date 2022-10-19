@@ -1,37 +1,57 @@
-﻿using GrupoC.Producto.Models;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace GrupoC.Producto.DAL
 {
-    public class ProductoRepository:IProductoRepository
+    public class ProductoRepository : IProductoRepository
     {
-        private List<Models.Producto> repo = new List<Models.Producto>();
+        private readonly ProductosContext _context;
 
-        public ProductoRepository()
+        public ProductoRepository(ProductosContext context)
         {
-            for (int i = 0; i < 100; i++)
-            {
-                Random r = new Random();
-                repo.Add(new Models.Producto()
-                {
-                    Id = (i + 1),
-                    Nombre = $"Producto {i + 1}",
-                    Precio = (double)i * Math.PI,
-                    FechaAlta = new DateTime(2022, 10, r.Next(1, 31))
-                });
-            }
-        }
-        public ProductoRepository(string CreacionRepositoriVacio) 
-        { 
-        }
-        public Task<Models.Producto> GetAsync(int id)
-        {
-            var product = repo.FirstOrDefault(p => p.Id == id);
-            return Task.FromResult(product);
+            _context = context;
         }
 
-        public Task<List<Models.Producto>> GetAllAsync()
+
+        public async Task<List<Models.Producto>> GetAllAsync()
         {
-            return Task.FromResult(repo);
+            var productos = await _context.Productos.ToListAsync();
+            return productos;
+        }
+
+        public async Task<Models.Producto> GetAsync(int id)
+        {
+            var producto = await _context.Productos.FindAsync(id);
+
+            return producto;
         }
     }
+
+
+
+        //// Create
+        //public async Task<int> Create(Models.Producto producto)
+        //{
+        //    producto.FechaAlta = DateTime.Now;
+        //    _context.Add(producto);
+        //    return await _context.SaveChangesAsync();
+        //}
+
+        //// Update
+        //public async Task<int> Update(Models.Producto producto)
+        //{
+        //    _context.Update(producto);
+        //    return await _context.SaveChangesAsync();
+        //}
+
+        //// Delete
+        //public async Task<bool> Delete(int Id)
+        //{
+        //    var producto = await _context.Productos.FindAsync(Id);
+        //    _context.Productos.Remove(producto);
+        //    if (await _context.SaveChangesAsync() >= 0)
+        //        return true;
+
+        //    return false;
+        //}
+    //}
 }
