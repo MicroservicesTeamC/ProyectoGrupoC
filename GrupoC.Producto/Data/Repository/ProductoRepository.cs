@@ -1,7 +1,5 @@
 ﻿using GrupoC.Producto.Data.Repository.Interfaces;
-using GrupoC.Producto.Models;
-using Microsoft.AspNetCore.Mvc;
-using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace GrupoC.Producto.Data.Repository
 {

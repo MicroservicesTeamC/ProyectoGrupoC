@@ -22,12 +22,12 @@ namespace GrupoC.Producto.Controllers
         //}
 
         [HttpGet]
-        [Route("getProductos")]
+        [Route("getAll")]
         public async Task<IActionResult> GetAll()
         {
             var productos = await _productoRepository.GetAll();
         
-                return Ok(productos);         
+            return Ok(productos);         
         }
 
         [HttpGet]
