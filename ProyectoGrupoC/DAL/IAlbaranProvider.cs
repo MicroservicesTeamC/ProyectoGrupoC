@@ -4,6 +4,6 @@ namespace GrupoC.AlbaranDeEntrega.DAL
 {
     public interface IAlbaranProvider
     {
-        Task<ICollection<Albaran>> GetAsnyc(string estanteriaId);
+        Task<ICollection<Albaran>> GetAsnyc(int estanteriaId);
     }
 }
