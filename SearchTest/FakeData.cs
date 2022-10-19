@@ -33,7 +33,7 @@ namespace SearchTest
         }
         public ProductosFake(string fakeDataVacia)
         {
-            
+            productos = new();
         }
 
         public Task<Producto?> GetAsync(string id)
