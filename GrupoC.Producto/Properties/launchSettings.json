@@ -8,10 +8,10 @@
     }
   },
   "profiles": {
-    "Grupo5.Producto": {
+    "GrupoC.Producto": {
       "commandName": "Project",
       "dotnetRunMessages": true,
-      "launchBrowser": false,
+      "launchBrowser": true,
       "launchUrl": "swagger",
       "applicationUrl": "http://localhost:5100",
       "environmentVariables": {
@@ -20,7 +20,7 @@
     },
     "IIS Express": {
       "commandName": "IISExpress",
-      "launchBrowser": false,
+      "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
