@@ -1,34 +1,35 @@
-﻿using Grupo5.Producto.Models;
-namespace Grupo5.Producto.DAL
+﻿using GrupoC.Producto.Models;
+
+namespace GrupoC.Producto.DAL
 {
     public class ProductoRepository:IProductoRepository
     {
-        private List<Productos> repo = new List<Productos>();
+        private List<Models.Producto> repo = new List<Models.Producto>();
 
         public ProductoRepository()
         {
             for (int i = 0; i < 100; i++)
             {
                 Random r = new Random();
-                repo.Add(new Productos()
+                repo.Add(new Models.Producto()
                 {
-                    Id = (i + 1).ToString(),
+                    Id = (i + 1),
                     Nombre = $"Producto {i + 1}",
                     Precio = (double)i * Math.PI,
-                    Caducidad = new DateTime(2022, 10, r.Next(1, 31))
+                    FechaAlta = new DateTime(2022, 10, r.Next(1, 31))
                 });
             }
         }
         public ProductoRepository(string CreacionRepositoriVacio) 
         { 
         }
-        public Task<Productos> GetAsync(string id)
+        public Task<Models.Producto> GetAsync(int id)
         {
             var product = repo.FirstOrDefault(p => p.Id == id);
             return Task.FromResult(product);
         }
 
-        public Task<List<Productos>> GetAllAsync()
+        public Task<List<Models.Producto>> GetAllAsync()
         {
             return Task.FromResult(repo);
         }
