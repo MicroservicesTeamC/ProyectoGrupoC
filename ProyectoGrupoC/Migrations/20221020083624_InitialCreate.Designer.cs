@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GrupoC.AlbaranDeEntrega.Migrations
 {
     [DbContext(typeof(AlbaranContext))]
-    [Migration("20221019073706_InitialCreate")]
+    [Migration("20221020083624_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GrupoC.Estanteria.Migrations
 {
     [DbContext(typeof(EstanteriaContext))]
-    [Migration("20221018125354_InitialCreate")]
+    [Migration("20221020083250_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
