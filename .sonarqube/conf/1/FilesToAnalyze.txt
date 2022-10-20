@@ -1,0 +1,17 @@
+﻿C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\Controllers\ProductoController.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\DAL\IProductoRepository.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\DAL\ProductoRepository.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\DAL\ProductoRepositoryFake.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\DAL\ProductosContext.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\Migrations\20221019075811_InitialCreate.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\Migrations\20221019075811_InitialCreate.Designer.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\Migrations\ProductosContextModelSnapshot.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\Models\Producto.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\Program.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\obj\Debug\net6.0\GrupoC.Producto.GlobalUsings.g.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\obj\Debug\net6.0\GrupoC.Producto.AssemblyInfo.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\obj\Debug\net6.0\GrupoC.Producto.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\appsettings.Development.json
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\appsettings.json
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\Properties\launchSettings.json

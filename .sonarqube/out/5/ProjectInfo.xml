@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>TestEstanteria</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Test</ProjectType>
+  <ProjectGuid>3d524f01-4ba6-4f71-84e2-cac4fee8d1af</ProjectGuid>
+  <FullPath>C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\TestEstanteria\TestEstanteria.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\.sonarqube\conf\5\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\.sonarqube\out\5\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\.sonarqube\out\5</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>net6.0</TargetFramework>
+</ProjectInfo>

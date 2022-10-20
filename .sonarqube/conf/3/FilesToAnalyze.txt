@@ -1,0 +1,16 @@
+﻿C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\Controllers\EstanteriaController.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\DAL\EstanteriaContext.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\DAL\EstanteriaProvider.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\DAL\IEstanteriaProvider.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\Migrations\20221018125354_InitialCreate.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\Migrations\20221018125354_InitialCreate.Designer.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\Migrations\EstanteriaContextModelSnapshot.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\Models\Estanterias.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\Program.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\obj\Debug\net6.0\GrupoC.Estanteria.GlobalUsings.g.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\obj\Debug\net6.0\GrupoC.Estanteria.AssemblyInfo.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\obj\Debug\net6.0\GrupoC.Estanteria.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\appsettings.Development.json
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\appsettings.json
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\Properties\launchSettings.json

@@ -4,7 +4,7 @@ namespace GrupoC.Estanteria.DAL
 {
     public class EstanteriaProvider : IEstanteriaProvider
     {
-        private List<Estanterias> estanterias = new ();
+        private readonly List<Estanterias> estanterias = new ();
         public EstanteriaProvider()
         {
             estanterias.Add(new Estanterias() { Id = "1", Name = "Estanteria Principal", Capacidad = 5 });

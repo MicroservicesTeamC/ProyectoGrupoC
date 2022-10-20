@@ -1,0 +1,17 @@
+t
+kC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Search\Controllers\SearchController.csutf-8r
+iC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Search\Interfaces\IAlbaranService.csutf-8u
+lC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Search\Interfaces\IEstanteriaService.csutf-8s
+jC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Search\Interfaces\IProductoService.csutf-8f
+]C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Search\Models\Albaran.csutf-8j
+aC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Search\Models\AlbaranItem.csutf-8i
+`C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Search\Models\Estanteria.csutf-8g
+^C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Search\Models\Producto.csutf-8_
+VC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Search\Program.csutf-8o
+fC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Search\Services\AlbaranService.csutf-8r
+iC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Search\Services\EstanteriaService.csutf-8q
+hC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Search\Services\ProductosService.csutf-8á
+|C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Search\obj\Debug\net6.0\GrupoC.Search.GlobalUsings.g.csutf-8ó
+ãC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Search\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8Ö
+zC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Search\obj\Debug\net6.0\GrupoC.Search.AssemblyInfo.csutf-8ô
+çC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Search\obj\Debug\net6.0\GrupoC.Search.MvcApplicationPartsAssemblyInfo.csutf-8

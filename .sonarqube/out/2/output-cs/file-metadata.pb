@@ -1,0 +1,15 @@
+o
+fC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\Context\AlbaranContext.csutf-8v
+mC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\Controllers\AlbaranController.csutf-8l
+cC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\DAL\AlbaranProvider.csutf-8m
+dC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\DAL\IAlbaranProvider.csutf-8Ä
+wC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\Migrations\20221019073706_InitialCreate.csutf-8å
+ÄC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\Migrations\20221019073706_InitialCreate.Designer.csutf-8Å
+vC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\Migrations\AlbaranContextModelSnapshot.csutf-8g
+^C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\Models\Albaran.csutf-8k
+bC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\Models\AlbaranItem.csutf-8`
+WC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\Program.csutf-8ì
+áC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\obj\Debug\net6.0\GrupoC.AlbaranDeEntrega.GlobalUsings.g.csutf-8ò
+åC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8ë
+ÖC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\obj\Debug\net6.0\GrupoC.AlbaranDeEntrega.AssemblyInfo.csutf-8§
+òC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\obj\Debug\net6.0\GrupoC.AlbaranDeEntrega.MvcApplicationPartsAssemblyInfo.csutf-8

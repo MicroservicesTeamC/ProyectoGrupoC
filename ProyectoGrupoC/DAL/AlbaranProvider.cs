@@ -64,9 +64,9 @@ namespace GrupoC.AlbaranDeEntrega.DAL
                 }
             });
         }
-        public async Task<ICollection<Albaran>> GetAsnyc(int id)
+        public async Task<ICollection<Albaran>> GetAsnyc(int estanteriaId)
         {
-            var customer = Albaran.Where(o => o.EstanteriaId == id).ToList();
+            var customer = Albaran.Where(o => o.EstanteriaId == estanteriaId).ToList();
             return await Task.FromResult(customer);
         }
     }

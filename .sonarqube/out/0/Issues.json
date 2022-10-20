@@ -1,0 +1,810 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.2.0.0",
+        "fileVersion": "4.2.0-4.22220.5 (432d17a8)",
+        "semanticVersion": "4.2.0",
+        "language": "es-ES"
+      },
+      "results": [
+        {
+          "ruleId": "CS8613",
+          "level": "warning",
+          "message": "La nulabilidad de los tipos de referencia del tipo de valor devuelto de \"Task<Estanteria> EstanteriaService.GetAsync(string estanteriaId)\" no coincide con el miembro \"Task<Estanteria?> IEstanteriaService.GetAsync(string estanteriaId)\" implementado de forma implícita.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Services/EstanteriaService.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 39,
+                  "endLine": 16,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8613",
+          "level": "warning",
+          "message": "La nulabilidad de los tipos de referencia del tipo de valor devuelto de \"Task<Producto> ProductosService.GetAsync(string id)\" no coincide con el miembro \"Task<Producto?> IProductoService.GetAsync(string id)\" implementado de forma implícita.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Services/ProductosService.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 37,
+                  "endLine": 15,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Services/ProductosService.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 24,
+                  "endLine": 25,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Services/ProductosService.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 20,
+                  "endLine": 27,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Services/ProductosService.cs",
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 24,
+                  "endLine": 40,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Services/ProductosService.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 20,
+                  "endLine": 42,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Services/EstanteriaService.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 24,
+                  "endLine": 28,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Services/EstanteriaService.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 20,
+                  "endLine": 31,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Services/AlbaranService.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 24,
+                  "endLine": 24,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Services/AlbaranService.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 20,
+                  "endLine": 27,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Id\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Models/Producto.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 23,
+                  "endLine": 5,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Models/Producto.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 23,
+                  "endLine": 5,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Nombre\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Models/Producto.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Models/Producto.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Id\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Models/Estanteria.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 23,
+                  "endLine": 5,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Models/Estanteria.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 23,
+                  "endLine": 5,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Name\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Models/Estanteria.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Models/Estanteria.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"AlbaranId\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Models/AlbaranItem.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 23,
+                  "endLine": 5,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Models/AlbaranItem.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 23,
+                  "endLine": 5,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"ProductoId\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Models/AlbaranItem.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Models/AlbaranItem.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Producto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Models/AlbaranItem.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 25,
+                  "endLine": 9,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Models/AlbaranItem.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 25,
+                  "endLine": 9,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Id\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Models/Albaran.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 23,
+                  "endLine": 5,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Models/Albaran.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 23,
+                  "endLine": 5,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"EstanteriaId\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Models/Albaran.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Models/Albaran.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Productos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Models/Albaran.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 34,
+                  "endLine": 8,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Models/Albaran.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 34,
+                  "endLine": 8,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8601",
+          "level": "warning",
+          "message": "Posible asignación de referencia nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Controllers/SearchController.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 45,
+                  "endLine": 41,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'httpClientFactory' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Services/AlbaranService.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 36,
+                  "endLine": 9,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'customerId' to 'estanteriaId' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Services/AlbaranService.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 65,
+                  "endLine": 14,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1764",
+          "level": "warning",
+          "message": "Correct one of the identical expressions on both sides of operator '&&'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Controllers/SearchController.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 54,
+                  "endLine": 72,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Controllers/SearchController.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 21,
+                  "endLine": 72,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'estanteria'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vikyr/source/Repos/MicroservicesTeamC/ProyectoGrupoC/GrupoC.Search/Controllers/SearchController.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 21,
+                  "endLine": 29,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS8601": {
+          "id": "CS8601",
+          "shortDescription": "Posible asignación de referencia nula",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8601)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8603": {
+          "id": "CS8603",
+          "shortDescription": "Posible tipo de valor devuelto de referencia nulo",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8603)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8613": {
+          "id": "CS8613",
+          "shortDescription": "La nulabilidad de los tipos de referencia en el tipo de valor devuelto no coincide con el miembro implementado de forma implícita",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8613)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Un campo que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declararlo como que admite un valor NULL.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1764": {
+          "id": "S1764",
+          "shortDescription": "Identical expressions should not be used on both sides of a binary operator",
+          "fullDescription": "Using the same value on either side of a binary operator is almost always a mistake. In the case of logical operators, it is either a copy/paste error and therefore a bug, or it is simply wasted code, and should be simplified. In the case of bitwise operators and most binary mathematical operators, having the same value on both sides of an operator yields predictable results, and should be simplified.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1764",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2933": {
+          "id": "S2933",
+          "shortDescription": "Fields that are only assigned in the constructor should be \"readonly\"",
+          "fullDescription": "readonly fields can only be assigned in a class constructor. If a class has a field that’s not marked readonly but is only set in the constructor, it could cause confusion about the field’s intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2933",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S927": {
+          "id": "S927",
+          "shortDescription": "Parameter names should match base declaration and other partial definitions",
+          "fullDescription": "The name of a parameter in an externally visible. This rule raises an issue when method override does not match the name of the parameter in the base declaration of the method, or the name of the parameter in the interface declaration of the method or the name of any other partial definition.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-927",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

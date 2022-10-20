@@ -1,0 +1,15 @@
+x
+oC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\Controllers\ProductoController.csutf-8q
+hC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\DAL\IProductoRepository.csutf-8p
+gC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\DAL\ProductoRepository.csutf-8t
+kC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\DAL\ProductoRepositoryFake.csutf-8n
+eC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\DAL\ProductosContext.csutf-8Å
+xC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\Migrations\20221019075811_InitialCreate.csutf-8ç
+ÅC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\Migrations\20221019075811_InitialCreate.Designer.csutf-8Ñ
+yC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\Migrations\ProductosContextModelSnapshot.csutf-8i
+`C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\Models\Producto.csutf-8a
+XC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\Program.csutf-8å
+ÄC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\obj\Debug\net6.0\GrupoC.Producto.GlobalUsings.g.csutf-8ô
+çC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8â
+~C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\obj\Debug\net6.0\GrupoC.Producto.AssemblyInfo.csutf-8ù
+ëC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Producto\obj\Debug\net6.0\GrupoC.Producto.MvcApplicationPartsAssemblyInfo.csutf-8

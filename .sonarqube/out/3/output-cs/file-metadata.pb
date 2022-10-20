@@ -1,0 +1,14 @@
+|
+sC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\Controllers\EstanteriaController.csutf-8q
+hC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\DAL\EstanteriaContext.csutf-8r
+iC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\DAL\EstanteriaProvider.csutf-8s
+jC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\DAL\IEstanteriaProvider.csutf-8É
+zC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\Migrations\20221018125354_InitialCreate.csutf-8è
+ÉC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\Migrations\20221018125354_InitialCreate.Designer.csutf-8á
+|C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\Migrations\EstanteriaContextModelSnapshot.csutf-8n
+eC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\Models\Estanterias.csutf-8c
+ZC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\Program.csutf-8ê
+ÑC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\obj\Debug\net6.0\GrupoC.Estanteria.GlobalUsings.g.csutf-8õ
+èC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8é
+ÇC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\obj\Debug\net6.0\GrupoC.Estanteria.AssemblyInfo.csutf-8°
+ïC:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\GrupoC.Estanteria\obj\Debug\net6.0\GrupoC.Estanteria.MvcApplicationPartsAssemblyInfo.csutf-8

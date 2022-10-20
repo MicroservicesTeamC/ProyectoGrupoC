@@ -69,7 +69,7 @@ namespace GrupoC.Search.Controllers
                     noCaducados = noCaducados
                 };
 
-                if (resultado.caducados.Count > 0 && resultado.caducados.Count > 0)
+                if (resultado.caducados.Count > 0)
                 {
                     return Ok(resultado);
                 }

@@ -1,0 +1,17 @@
+﻿C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\Context\AlbaranContext.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\Controllers\AlbaranController.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\DAL\AlbaranProvider.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\DAL\IAlbaranProvider.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\Migrations\20221019073706_InitialCreate.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\Migrations\20221019073706_InitialCreate.Designer.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\Migrations\AlbaranContextModelSnapshot.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\Models\Albaran.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\Models\AlbaranItem.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\Program.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\obj\Debug\net6.0\GrupoC.AlbaranDeEntrega.GlobalUsings.g.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\obj\Debug\net6.0\GrupoC.AlbaranDeEntrega.AssemblyInfo.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\obj\Debug\net6.0\GrupoC.AlbaranDeEntrega.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\appsettings.Development.json
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\appsettings.json
+C:\Users\vikyr\source\Repos\MicroservicesTeamC\ProyectoGrupoC\ProyectoGrupoC\Properties\launchSettings.json

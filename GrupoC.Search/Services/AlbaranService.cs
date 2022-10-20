@@ -11,11 +11,11 @@ namespace GrupoC.Search.Services
         {
             this.httpClientFactory = httpClientFactory;
         }
-        public async Task<ICollection<Albaran>> GetAsync(string customerId)
+        public async Task<ICollection<Albaran>> GetAsync(string estanteriaId)
         {
             var client = httpClientFactory.CreateClient("albaranService");
 
-            var response = await client.GetAsync($"api/Albaran/{customerId}");
+            var response = await client.GetAsync($"api/Albaran/{estanteriaId}");
             if (response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();
