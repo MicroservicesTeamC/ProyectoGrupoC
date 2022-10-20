@@ -10,7 +10,7 @@ namespace TestEstanteria
         [TestMethod]
         public void GetAsyncReturnsOK()
         {
-            var productosRepository = new EstanteriaProvider();
+            var productosRepository = new EstanteriaProviderFake();
             var productsController = new EstanteriaController(productosRepository);
 
             var result = productsController.GetAsync("1").Result;
@@ -22,7 +22,7 @@ namespace TestEstanteria
         [TestMethod]
         public void GetAsyncReturnsNotOK()
         {
-            var productosRepository = new EstanteriaProvider();
+            var productosRepository = new EstanteriaProviderFake();
             var productosController = new EstanteriaController(productosRepository);
 
             var result = productosController.GetAsync("666").Result;

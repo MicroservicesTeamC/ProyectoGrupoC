@@ -31,7 +31,7 @@ namespace GrupoC.Search.Services
         {
             var client = httpClientFactory.CreateClient("productosService");
 
-            var response = await client.GetAsync($"api/Producto/all");
+            var response = await client.GetAsync($"api/Producto/getAll");
             if (response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();

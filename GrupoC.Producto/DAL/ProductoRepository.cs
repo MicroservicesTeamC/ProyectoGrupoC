@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using GrupoC.Producto.Models;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace GrupoC.Producto.DAL
 {
@@ -12,13 +14,13 @@ namespace GrupoC.Producto.DAL
         }
 
 
-        public async Task<List<Models.Producto>> GetAllAsync()
+        public async Task<List<Productos>> GetAllAsync()
         {
             var productos = await _context.Productos.ToListAsync();
             return productos;
         }
 
-        public async Task<Models.Producto> GetAsync(int id)
+        public async Task<Productos> GetAsync(int id)
         {
             var producto = await _context.Productos.FindAsync(id);
 

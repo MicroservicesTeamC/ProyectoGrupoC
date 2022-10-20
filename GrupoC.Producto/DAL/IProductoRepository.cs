@@ -4,7 +4,7 @@ namespace GrupoC.Producto.DAL
 {
     public interface IProductoRepository
     {
-        Task<Models.Producto> GetAsync(int id);
-        Task<List<Models.Producto>> GetAllAsync();
+        Task<Productos> GetAsync(int id);
+        Task<List<Productos>> GetAllAsync();
     }
 }

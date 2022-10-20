@@ -36,7 +36,7 @@ namespace GrupoC.Producto.Controllers
         }
 
         [HttpGet]
-        [Route("getProducto")]
+        [Route("{id}")]
         public async Task<IActionResult> GetAsync(int id)
         {
             var producto = await _productoRepository.GetAsync(id);

@@ -28,7 +28,6 @@ namespace GrupoC.Search.Controllers
             {
                 var estanteria = await estanteriaService.GetAsync(estanteriaId);
                 var albaranes = await albaranService.GetAsync(estanteriaId);
-                
                
 
                 if (albaranes != null)

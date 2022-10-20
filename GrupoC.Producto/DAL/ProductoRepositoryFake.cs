@@ -2,16 +2,16 @@
 
 namespace GrupoC.Producto.DAL
 {
-    public class ProductoRepositoryFake:IProductoRepository
+    public class ProductoRepositoryFake: IProductoRepository
     {
-        private List<Models.Producto> repo = new List<Models.Producto>();
+        private List<Productos> repo = new List<Productos>();
 
         public ProductoRepositoryFake()
         {
             for (int i = 0; i < 100; i++)
             {
                 Random r = new Random();
-                repo.Add(new Models.Producto()
+                repo.Add(new Models.Productos()
                 {
                     Id = (i + 1),
                     Nombre = $"Producto {i + 1}",
@@ -23,13 +23,13 @@ namespace GrupoC.Producto.DAL
         public ProductoRepositoryFake(string CreacionRepositoriVacio) 
         { 
         }
-        public Task<Models.Producto> GetAsync(int id)
+        public Task<Productos> GetAsync(int id)
         {
             var product = repo.FirstOrDefault(p => p.Id == id);
             return Task.FromResult(product);
         }
 
-        public Task<List<Models.Producto>> GetAllAsync()
+        public Task<List<Productos>> GetAllAsync()
         {
             return Task.FromResult(repo);
         }

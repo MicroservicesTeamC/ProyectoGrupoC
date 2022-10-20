@@ -1,73 +1,27 @@
-﻿using GrupoC.AlbaranDeEntrega.Models;
+﻿using GrupoC.AlbaranDeEntrega.Context;
+using GrupoC.AlbaranDeEntrega.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Azure;
 
 namespace GrupoC.AlbaranDeEntrega.DAL
 {
     public class AlbaranProvider : IAlbaranProvider
     {
-        private List<Albaran> Albaran = new ();
-        public AlbaranProvider()
+        private readonly AlbaranContext _context;
+
+        public AlbaranProvider(AlbaranContext context)
         {
-            Albaran.Add(new Albaran() { Id = 1, AlbaranDate = DateTime.Now.AddMonths(-1), EstanteriaId = 1,
-                Productos = new List<AlbaranItem>()
-                {
-                    new AlbaranItem() { AlbaranId = 1, Id = 1, ProductoId = "1", Cantidad = 2},
-                    new AlbaranItem() { AlbaranId = 1, Id = 2, ProductoId = "3", Cantidad = 1},
-                    new AlbaranItem() { AlbaranId = 1, Id = 3, ProductoId = "2", Cantidad = 1}
-                }
-            });
-            Albaran.Add(new Albaran()
-            {
-                Id = 5,
-                EstanteriaId = 2,
-                AlbaranDate = DateTime.Now.AddMonths(-1),
-                Productos = new List<AlbaranItem>()
-                {
-                    new AlbaranItem() { AlbaranId = 1, Id = 1, ProductoId = "1", Cantidad = 2},
-                    new AlbaranItem() { AlbaranId = 1, Id = 2, ProductoId = "3", Cantidad = 1},
-                    new AlbaranItem() { AlbaranId = 1, Id = 3, ProductoId = "2", Cantidad = 1}
-                }
-            });
-            Albaran.Add(new Albaran()
-            {
-                Id = 2,
-                EstanteriaId = 3,
-                AlbaranDate = DateTime.Now.AddMonths(-1),
-                Productos = new List<AlbaranItem>()
-                {
-                    new AlbaranItem() { AlbaranId = 2, Id = 1, ProductoId = "1", Cantidad = 2},
-                    new AlbaranItem() { AlbaranId = 2, Id = 2, ProductoId = "3", Cantidad = 1},
-                    new AlbaranItem() { AlbaranId = 2, Id = 3, ProductoId = "2", Cantidad = 1}
-                }
-            });
-            Albaran.Add(new Albaran()
-            {
-                Id = 3,
-                EstanteriaId = 3,
-                AlbaranDate = DateTime.Now.AddMonths(-1),
-                Productos = new List<AlbaranItem>()
-                {
-                    new AlbaranItem() { AlbaranId = 3, Id = 1, ProductoId = "1", Cantidad = 2},
-                    new AlbaranItem() { AlbaranId = 3, Id = 2, ProductoId = "3", Cantidad = 1},
-                    new AlbaranItem() { AlbaranId = 3, Id = 3, ProductoId = "2", Cantidad = 1}
-                }
-            });
-            Albaran.Add(new Albaran()
-            {
-                Id = 4,
-                AlbaranDate = DateTime.Now.AddMonths(-2),
-                EstanteriaId = 1,
-                Productos = new List<AlbaranItem>()
-                {
-                    new AlbaranItem() { AlbaranId = 4, Id = 1, ProductoId = "1", Cantidad = 2},
-                    new AlbaranItem() { AlbaranId = 4, Id = 2, ProductoId = "3", Cantidad = 1},
-                    new AlbaranItem() { AlbaranId = 4, Id = 3, ProductoId = "2", Cantidad = 1}
-                }
-            });
+            _context = context;
         }
-        public async Task<ICollection<Albaran>> GetAsnyc(int id)
+        public async Task<ICollection<Albaran>> GetAsnyc(int estanteriaId)
         {
-            var customer = Albaran.Where(o => o.EstanteriaId == id).ToList();
-            return await Task.FromResult(customer);
+            var albaran = await _context.Albaranes.Where(o => o.EstanteriaId == estanteriaId).ToListAsync();
+            foreach(var item in albaran)
+            {
+                List<AlbaranItem> listaCarga = _context.AlbaranItems.Where(o => o.AlbaranId == item.Id).ToList();
+                item.Productos = listaCarga ;
+            }
+            return albaran;
         }
     }
 }
