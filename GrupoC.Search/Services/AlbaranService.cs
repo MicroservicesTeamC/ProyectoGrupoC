@@ -1,4 +1,5 @@
 ﻿using GrupoC.Search.Interfaces;
+using GrupoC.Search.Logs;
 using GrupoC.Search.Models;
 using Newtonsoft.Json;
 
@@ -7,12 +8,16 @@ namespace GrupoC.Search.Services
     public class AlbaranService : IAlbaranService
     {
         private IHttpClientFactory httpClientFactory;
-        public AlbaranService(IHttpClientFactory httpClientFactory)
+        readonly ILoggerManager LoggerManager;
+        public AlbaranService(IHttpClientFactory httpClientFactory, ILoggerManager loggerManager)
         {
+            this.LoggerManager = loggerManager;
+            this.LoggerManager.LogInfo("-----REQUEST Albaran-----");
             this.httpClientFactory = httpClientFactory;
         }
         public async Task<ICollection<Albaran>> GetAsync(int customerId)
         {
+            this.LoggerManager.LogInfo("REQUEST SINGLE Albaran");
             var client = httpClientFactory.CreateClient("albaranService");
 
             var response = await client.GetAsync($"api/Albaran/{customerId}");

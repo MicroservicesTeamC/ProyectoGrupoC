@@ -1,4 +1,5 @@
 ﻿using GrupoC.Search.Interfaces;
+using GrupoC.Search.Logs;
 using GrupoC.Search.Models;
 using Newtonsoft.Json;
 
@@ -7,13 +8,16 @@ namespace GrupoC.Search.Services
     public class ProductosService : IProductoService
     {
         private readonly IHttpClientFactory httpClientFactory;
-
-        public ProductosService(IHttpClientFactory httpClientFactory)
+        readonly ILoggerManager LoggerManager;
+        public ProductosService(IHttpClientFactory httpClientFactory, ILoggerManager loggerManager)
         {
+            this.LoggerManager = loggerManager;
+            this.LoggerManager.LogInfo("-----REQUEST Producto-----");
             this.httpClientFactory = httpClientFactory;
         }
         public async Task<Producto> GetAsync(int id)
         {
+            this.LoggerManager.LogInfo("REQUEST SINGLE Product");
             var client = httpClientFactory.CreateClient("productosService");
 
             var response = await client.GetAsync($"api/Producto/{id}");
@@ -29,6 +33,7 @@ namespace GrupoC.Search.Services
 
         public async Task<List<Producto>> GetAllAsync()
         {
+            this.LoggerManager.LogInfo("REQUEST ALL Products");
             var client = httpClientFactory.CreateClient("productosService");
 
             var response = await client.GetAsync($"api/Producto/getAll");
