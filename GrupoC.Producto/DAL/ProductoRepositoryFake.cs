@@ -4,7 +4,7 @@ namespace GrupoC.Producto.DAL
 {
     public class ProductoRepositoryFake: IProductoRepository
     {
-        private List<Productos> repo = new List<Productos>();
+        private readonly List<Productos> repo = new List<Productos>();
 
         public ProductoRepositoryFake()
         {

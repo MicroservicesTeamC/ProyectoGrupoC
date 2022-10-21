@@ -12,7 +12,7 @@ namespace GrupoC.Search.Services
         {
             this.httpClientFactory = httpClientFactory;
         }
-        public async Task<Producto> GetAsync(string id)
+        public async Task<Producto> GetAsync(int id)
         {
             var client = httpClientFactory.CreateClient("productosService");
 

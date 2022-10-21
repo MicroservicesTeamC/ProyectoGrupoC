@@ -4,6 +4,6 @@ namespace GrupoC.Search.Interfaces
 {
     public interface IEstanteriaService
     {
-        Task<Estanteria?> GetAsync(string estanteriaId);
+        Task<Estanteria?> GetAsync(int estanteriaId);
     }
 }

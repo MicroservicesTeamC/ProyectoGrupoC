@@ -13,7 +13,7 @@ namespace TestEstanteria
             var productosRepository = new EstanteriaProviderFake();
             var productsController = new EstanteriaController(productosRepository);
 
-            var result = productsController.GetAsync("1").Result;
+            var result = productsController.GetAsync(1).Result;
 
             Assert.IsNotNull(result);
             Assert.IsInstanceOfType(result, typeof(OkObjectResult));
@@ -25,7 +25,7 @@ namespace TestEstanteria
             var productosRepository = new EstanteriaProviderFake();
             var productosController = new EstanteriaController(productosRepository);
 
-            var result = productosController.GetAsync("666").Result;
+            var result = productosController.GetAsync(666).Result;
 
             Assert.IsNotNull(result);
             Assert.IsInstanceOfType(result, typeof(NotFoundResult));

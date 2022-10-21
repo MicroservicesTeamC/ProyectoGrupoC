@@ -1,0 +1,15 @@
+{
+rD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Controllers\ProductoController.csutf-8t
+kD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\IProductoRepository.csutf-8s
+jD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductoRepository.csutf-8w
+nD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductoRepositoryFake.csutf-8q
+hD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductosContext.csutf-8Ñ
+{D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Migrations\20221019075811_InitialCreate.csutf-8ê
+ÑD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Migrations\20221019075811_InitialCreate.Designer.csutf-8á
+|D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Migrations\ProductosContextModelSnapshot.csutf-8m
+dD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Models\Productos.csutf-8d
+[D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Program.csutf-8è
+ÉD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\obj\Debug\net6.0\GrupoC.Producto.GlobalUsings.g.csutf-8ú
+êD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8ç
+ÅD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\obj\Debug\net6.0\GrupoC.Producto.AssemblyInfo.csutf-8†
+îD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\obj\Debug\net6.0\GrupoC.Producto.MvcApplicationPartsAssemblyInfo.csutf-8

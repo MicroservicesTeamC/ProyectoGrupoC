@@ -7,7 +7,7 @@ namespace GrupoC.Producto.Models
         public int Id { get; set; }
 
         [Required(ErrorMessage = "El nombre es requerido")]
-        public string Nombre { get; set; }
+        public string? Nombre { get; set; }
 
         [Required(ErrorMessage = "El precio es requerido")]
         public double Precio { get; set; }

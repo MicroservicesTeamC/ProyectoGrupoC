@@ -22,7 +22,7 @@ namespace SearchTest
                 albaranService);
 
             var resultCaducidad = searchController.CaducidadAsync().Result;
-            var resultAlbaran = searchController.AlbaranAsync("1").Result;
+            var resultAlbaran = searchController.AlbaranAsync(1).Result;
             Assert.IsNotNull(resultCaducidad);
             Assert.IsInstanceOfType(resultCaducidad, typeof(OkObjectResult));
             Assert.IsNotNull(resultAlbaran);
@@ -41,7 +41,7 @@ namespace SearchTest
                 productoService,
                 albaranService);
 
-            var resultAlbaran = searchController.AlbaranAsync("666").Result;
+            var resultAlbaran = searchController.AlbaranAsync(666).Result;
             var resultCaducidad = searchController.CaducidadAsync().Result;
 
             Assert.IsNotNull(resultCaducidad);
@@ -50,25 +50,25 @@ namespace SearchTest
             Assert.IsInstanceOfType(resultAlbaran, typeof(NotFoundResult));
         }
 
-        [TestMethod]
-        public void GetAsyncReturnsBadRequest()
-        {
-            IEstanteriaService estanteriaService = new EstanteriasFake();
-            IProductoService productoService = new ProductosFake();
-            IAlbaranService albaranService = new AlbaranFake(" ");
+        //[TestMethod]
+        //public void GetAsyncReturnsBadRequest()
+        //{
+        //    IEstanteriaService estanteriaService = new EstanteriasFake();
+        //    IProductoService productoService = new ProductosFake();
+        //    IAlbaranService albaranService = new AlbaranFake(" ");
 
-            var searchController = new SearchController(
-                estanteriaService,
-                productoService,
-                albaranService);
+        //    var searchController = new SearchController(
+        //        estanteriaService,
+        //        productoService,
+        //        albaranService);
 
-            var resultAlbaran = searchController.AlbaranAsync(" ").Result;
+        //    var resultAlbaran = searchController.AlbaranAsync(-1).Result;
 
 
-            Assert.IsNotNull(resultAlbaran);
-            Assert.IsInstanceOfType(resultAlbaran, typeof(BadRequestResult));
+        //    Assert.IsNotNull(resultAlbaran);
+        //    Assert.IsInstanceOfType(resultAlbaran, typeof(BadRequestResult));
 
-        }
+        //}
 
     }
 }

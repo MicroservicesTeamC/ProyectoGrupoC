@@ -4,11 +4,9 @@ using System.Configuration;
 using Azure.Identity;
 using Azure.Security.KeyVault.Secrets;
 using Azure.Core;
-using ConfigurationManager = Microsoft.Extensions.Configuration.ConfigurationManager;
 
 var builder = WebApplication.CreateBuilder(args);
 
-ConfigurationManager Configuration = builder.Configuration;
 
 SecretClientOptions options = new SecretClientOptions()
 {

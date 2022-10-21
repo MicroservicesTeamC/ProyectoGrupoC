@@ -1,0 +1,16 @@
+r
+iD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Context\AlbaranContext.csutf-8y
+pD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Controllers\AlbaranController.csutf-8o
+fD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\DAL\AlbaranProvider.csutf-8s
+jD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\DAL\AlbaranProviderFake.csutf-8p
+gD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\DAL\IAlbaranProvider.csutf-8É
+zD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Migrations\20221020083624_InitialCreate.csutf-8è
+ÉD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Migrations\20221020083624_InitialCreate.Designer.csutf-8Ñ
+yD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Migrations\AlbaranContextModelSnapshot.csutf-8j
+aD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Models\Albaran.csutf-8n
+eD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Models\AlbaranItem.csutf-8c
+ZD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Program.csutf-8ñ
+äD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\obj\Debug\net6.0\GrupoC.AlbaranDeEntrega.GlobalUsings.g.csutf-8õ
+èD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8î
+àD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\obj\Debug\net6.0\GrupoC.AlbaranDeEntrega.AssemblyInfo.csutf-8ß
+õD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\obj\Debug\net6.0\GrupoC.AlbaranDeEntrega.MvcApplicationPartsAssemblyInfo.csutf-8

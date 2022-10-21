@@ -1,0 +1,15 @@
+
+vD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Controllers\EstanteriaController.csutf-8t
+kD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\DAL\EstanteriaContext.csutf-8u
+lD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\DAL\EstanteriaProvider.csutf-8y
+pD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\DAL\EstanteriaProviderFake.csutf-8v
+mD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\DAL\IEstanteriaProvider.csutf-8†
+}D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Migrations\20221020083250_InitialCreate.csutf-8’
+†D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Migrations\20221020083250_InitialCreate.Designer.csutf-8Š
+D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Migrations\EstanteriaContextModelSnapshot.csutf-8q
+hD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Models\Estanterias.csutf-8f
+]D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Program.csutf-8“
+‡D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\obj\Debug\net6.0\GrupoC.Estanteria.GlobalUsings.g.csutf-8ž
+’D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8‘
+…D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\obj\Debug\net6.0\GrupoC.Estanteria.AssemblyInfo.csutf-8¤
+˜D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\obj\Debug\net6.0\GrupoC.Estanteria.MvcApplicationPartsAssemblyInfo.csutf-8

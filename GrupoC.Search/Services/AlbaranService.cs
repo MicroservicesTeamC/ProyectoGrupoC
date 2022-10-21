@@ -11,7 +11,7 @@ namespace GrupoC.Search.Services
         {
             this.httpClientFactory = httpClientFactory;
         }
-        public async Task<ICollection<Albaran>> GetAsync(string customerId)
+        public async Task<ICollection<Albaran>> GetAsync(int customerId)
         {
             var client = httpClientFactory.CreateClient("albaranService");
 

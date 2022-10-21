@@ -19,13 +19,13 @@ namespace SearchTest
             {
                 new Producto()
                 {
-                    Id = "1",
+                    Id = 1,
                     Nombre = "Caca",
                     Caducidad = new DateTime(2022, 10, 1)
                 },
                 new Producto()
                 {
-                    Id = "2",
+                    Id = 2,
                     Nombre = "Caca2",
                     Caducidad = new DateTime(2022, 10, 28)
                 }
@@ -36,7 +36,7 @@ namespace SearchTest
             productos = new();
         }
 
-        public Task<Producto?> GetAsync(string id)
+        public Task<Producto?> GetAsync(int id)
         {
             var producto = productos.FirstOrDefault(x => x.Id.Equals(id));
             return Task.FromResult(producto);
@@ -51,10 +51,10 @@ namespace SearchTest
     class EstanteriasFake : IEstanteriaService
     {
         public List<Estanteria> lista = new List<Estanteria>();
-        public Task<Estanteria?> GetAsync(string estanteriaId)
+        public Task<Estanteria?> GetAsync(int estanteriaId)
         {
-            lista.Add(new Estanteria() { Id = "1", Name = "Estanteria Principal", Capacidad = 5 });
-            lista.Add(new Estanteria() { Id = "2", Name = "Estanteria 2", Capacidad = 5 });
+            lista.Add(new Estanteria() { Id = 1, Name = "Estanteria Principal", Capacidad = 5 });
+            lista.Add(new Estanteria() { Id = 2, Name = "Estanteria 2", Capacidad = 5 });
 
             return Task.FromResult(lista.FirstOrDefault(x => x.Id.Equals("1")));
         }
@@ -69,17 +69,17 @@ namespace SearchTest
         {
             new Albaran()
             {
-                Id = "1",
+                Id = 1,
                 AlbaranDate = DateTime.Now,
                 Productos = new List<AlbaranItem>()
                 {
                     new AlbaranItem()
                     {
                         Id = 1,
-                        AlbaranId = "1",
+                        AlbaranId = 1,
                         Producto = new Producto(),
                         Cantidad = 2,
-                        ProductoId = "1"
+                        ProductoId = 1
                     }
                 }
             }
@@ -90,7 +90,7 @@ namespace SearchTest
             albaranes = null;
         }
 
-        public Task<ICollection<Albaran>> GetAsync(string estanteriaId)
+        public Task<ICollection<Albaran>> GetAsync(int estanteriaId)
         {
             ICollection<Albaran> coleccion = albaranes;
 

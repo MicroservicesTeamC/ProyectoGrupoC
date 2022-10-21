@@ -21,12 +21,10 @@ namespace GrupoC.Search.Controllers
         }
 
         [HttpGet("albaran/{estanteriaId}")]
-        public async Task<IActionResult> AlbaranAsync(string estanteriaId)
+        public async Task<IActionResult> AlbaranAsync(int estanteriaId)
         {
-            if (string.IsNullOrWhiteSpace(estanteriaId)) return BadRequest();
             try
             {
-                var estanteria = await estanteriaService.GetAsync(estanteriaId);
                 var albaranes = await albaranService.GetAsync(estanteriaId);
                
 
@@ -59,7 +57,7 @@ namespace GrupoC.Search.Controllers
         {
             try
             {
-                var productos = await productoService.GetAllAsync();
+                      var productos = await productoService.GetAllAsync();
                 var caducados = productos.FindAll(x => x.Caducidad <= DateTime.Now).ToList();
                 var noCaducados = productos.FindAll(x => x.Caducidad > DateTime.Now).ToList();
                 var resultado = new
@@ -68,7 +66,7 @@ namespace GrupoC.Search.Controllers
                     noCaducados = noCaducados
                 };
 
-                if (resultado.caducados.Count > 0 && resultado.caducados.Count > 0)
+                if (resultado.caducados.Count > 0 || resultado.noCaducados.Count > 0)
                 {
                     return Ok(resultado);
                 }
@@ -82,6 +80,6 @@ namespace GrupoC.Search.Controllers
             {
                 return BadRequest();
             }
-        }
+                                  }
     }
 }

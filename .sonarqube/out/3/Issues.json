@@ -1,0 +1,163 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.3.0.0",
+        "fileVersion": "4.3.0-3.22415.1 (8301d484)",
+        "semanticVersion": "4.3.0",
+        "language": "es-ES"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Estanterias\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Estanteria/DAL/EstanteriaContext.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 16,
+                  "endLine": 8,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Estanteria/DAL/EstanteriaContext.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 35,
+                  "endLine": 12,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Estanteria/DAL/EstanteriaProvider.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 20,
+                  "endLine": 15,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Estanteria/DAL/EstanteriaProviderFake.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 20,
+                  "endLine": 18,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1075",
+          "level": "warning",
+          "message": "Refactor your code not to use hardcoded absolute paths or URIs.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Estanteria/Program.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 39,
+                  "endLine": 21,
+                  "endColumn": 78
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS8603": {
+          "id": "CS8603",
+          "shortDescription": "Posible tipo de valor devuelto de referencia nulo",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8603)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Un campo que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declararlo como que admite un valor NULL.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S1075": {
+          "id": "S1075",
+          "shortDescription": "URIs should not be hardcoded",
+          "fullDescription": "Hardcoding a URI makes it difficult to test a program: path literals are not always portable across operating systems, a given absolute path may not exist on a specific test environment, a specified Internet URL may not be available when executing the tests, production environment filesystems usually differ from the development environment, …​etc. For all those reasons, a URI should never be hardcoded. Instead, it should be replaced by customizable parameter.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1075",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
