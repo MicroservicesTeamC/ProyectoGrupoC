@@ -12,12 +12,10 @@ namespace SearchTest
         [TestMethod]
         public void GetAsyncReturnsOK()
         {
-            IEstanteriaService estanteriaService = new EstanteriasFake();
             IProductoService productoService = new ProductosFake();
             IAlbaranService albaranService = new AlbaranFake();
 
             var searchController = new SearchController(
-                estanteriaService,
                 productoService,
                 albaranService);
 
@@ -32,12 +30,10 @@ namespace SearchTest
      [TestMethod]
         public void GetAsyncReturnsNotOK()
         {
-            IEstanteriaService estanteriaService = new EstanteriasFake();
             IProductoService productoService = new ProductosFake("test");
             IAlbaranService albaranService = new AlbaranFake("test");
 
             var searchController = new SearchController(
-                estanteriaService,
                 productoService,
                 albaranService);
 
@@ -50,25 +46,6 @@ namespace SearchTest
             Assert.IsInstanceOfType(resultAlbaran, typeof(NotFoundResult));
         }
 
-        //[TestMethod]
-        //public void GetAsyncReturnsBadRequest()
-        //{
-        //    IEstanteriaService estanteriaService = new EstanteriasFake();
-        //    IProductoService productoService = new ProductosFake();
-        //    IAlbaranService albaranService = new AlbaranFake(" ");
-
-        //    var searchController = new SearchController(
-        //        estanteriaService,
-        //        productoService,
-        //        albaranService);
-
-        //    var resultAlbaran = searchController.AlbaranAsync(-1).Result;
-
-
-        //    Assert.IsNotNull(resultAlbaran);
-        //    Assert.IsInstanceOfType(resultAlbaran, typeof(BadRequestResult));
-
-        //}
 
     }
 }

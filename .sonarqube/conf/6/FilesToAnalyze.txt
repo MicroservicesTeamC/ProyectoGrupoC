@@ -1,5 +1,5 @@
-﻿D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\TestEstanteria\EstanteriaTest.cs
-D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\TestEstanteria\Usings.cs
+﻿D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\TestProductos\ProductosTest.cs
+D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\TestProductos\Usings.cs
 C:\Users\victo\.nuget\packages\microsoft.net.test.sdk\17.1.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs
 C:\Users\victo\.nuget\packages\microsoft.testplatform.testhost\17.1.0\build\netcoreapp2.1\x64\testhost.exe
 C:\Users\victo\.nuget\packages\microsoft.testplatform.testhost\17.1.0\build\netcoreapp2.1\x64\testhost.dll

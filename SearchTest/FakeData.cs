@@ -11,7 +11,7 @@ namespace SearchTest
 
     class ProductosFake : IProductoService
     {
-        public static List<Producto> productos = new();
+        public static List<Producto>? productos = new();
 
         public ProductosFake()
         {
@@ -38,11 +38,16 @@ namespace SearchTest
 
         public Task<Producto?> GetAsync(int id)
         {
-            var producto = productos.FirstOrDefault(x => x.Id.Equals(id));
+            Producto? producto = null;
+            if (productos is not null)
+            { 
+                producto = productos.FirstOrDefault(x => x.Id.Equals(id));
+                return Task.FromResult(producto);
+            }
             return Task.FromResult(producto);
         }
 
-        public Task<List<Producto>> GetAllAsync()
+        public Task<List<Producto>?> GetAllAsync()
         {
             return Task.FromResult(productos);
         }
@@ -62,7 +67,7 @@ namespace SearchTest
 
     class AlbaranFake : IAlbaranService
     {
-        private List<Albaran> albaranes;
+        private List<Albaran>? albaranes;
         public AlbaranFake()
         {
             albaranes = new()
@@ -90,9 +95,9 @@ namespace SearchTest
             albaranes = null;
         }
 
-        public Task<ICollection<Albaran>> GetAsync(int estanteriaId)
+        public Task<ICollection<Albaran>?> GetAsync(int estanteriaId)
         {
-            ICollection<Albaran> coleccion = albaranes;
+            ICollection<Albaran>? coleccion = albaranes;
 
             return Task.FromResult(coleccion);
         }

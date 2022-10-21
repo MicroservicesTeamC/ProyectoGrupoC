@@ -12,7 +12,7 @@ namespace GrupoC.Estanteria.DAL
             estanterias.Add(new Estanterias() { Id = 3, Name = "Estanteria Terciaria", Capacidad = 20});
             estanterias.Add(new Estanterias() { Id = 4, Name = "Cuarta Estanteria", Capacidad = 25});
         }
-        public async Task<Estanterias> GetAsnyc(int id)
+        public async Task<Estanterias?> GetAsnyc(int id)
         {
             var customer = estanterias.FirstOrDefault(x => x.Id == id);
             return await Task.FromResult(customer);

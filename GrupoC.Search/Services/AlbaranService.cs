@@ -10,17 +10,18 @@ namespace GrupoC.Search.Services
         private IHttpClientFactory httpClientFactory;
         readonly ILoggerManager LoggerManager;
         public AlbaranService(IHttpClientFactory httpClientFactory, ILoggerManager loggerManager)
+
         {
             this.LoggerManager = loggerManager;
             this.LoggerManager.LogInfo("-----REQUEST Albaran-----");
             this.httpClientFactory = httpClientFactory;
         }
-        public async Task<ICollection<Albaran>> GetAsync(int customerId)
+        public async Task<ICollection<Albaran>?> GetAsync(int estanteriaId)
         {
             this.LoggerManager.LogInfo("REQUEST SINGLE Albaran");
             var client = httpClientFactory.CreateClient("albaranService");
 
-            var response = await client.GetAsync($"api/Albaran/{customerId}");
+            var response = await client.GetAsync($"api/Albaran/{estanteriaId}");
             if (response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();

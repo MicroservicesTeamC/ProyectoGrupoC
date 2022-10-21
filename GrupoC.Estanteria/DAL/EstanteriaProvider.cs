@@ -9,10 +9,14 @@ namespace GrupoC.Estanteria.DAL
         {
             _context = context;
         }
-        public async Task<Estanterias> GetAsnyc(int id)
+        public async Task<Estanterias?> GetAsnyc(int id)
         {
-            var customer = await _context.Estanterias.FindAsync(id);
-            return customer;
+            if(_context.Estanterias is not null)
+            {
+                return await _context.Estanterias.FindAsync(id);
+            }
+            
+            return null;
         }
     }
 }

@@ -4,6 +4,6 @@ namespace GrupoC.Search.Interfaces
 {
     public interface IAlbaranService
     {
-        Task<ICollection<Albaran>> GetAsync(int estanteriaId);
+        Task<ICollection<Albaran>?> GetAsync(int estanteriaId);
     }
 }

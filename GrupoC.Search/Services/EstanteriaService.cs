@@ -17,7 +17,7 @@ namespace GrupoC.Search.Services
             this.httpClientFactory = httpClientFactory;
         }
 
-        public async Task<Estanteria> GetAsync(int estanteriaId)
+        public async Task<Estanteria?> GetAsync(int estanteriaId)
         {
             this.LoggerManager.LogInfo("REQUEST SINGLE Estanteria");
             var client = httpClientFactory.CreateClient("estanteriasService");

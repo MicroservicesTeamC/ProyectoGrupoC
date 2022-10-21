@@ -15,7 +15,7 @@ namespace GrupoC.Search.Services
             this.LoggerManager.LogInfo("-----REQUEST Producto-----");
             this.httpClientFactory = httpClientFactory;
         }
-        public async Task<Producto> GetAsync(int id)
+        public async Task<Producto?> GetAsync(int id)
         {
             this.LoggerManager.LogInfo("REQUEST SINGLE Product");
             var client = httpClientFactory.CreateClient("productosService");
@@ -31,7 +31,7 @@ namespace GrupoC.Search.Services
             return null;
         }
 
-        public async Task<List<Producto>> GetAllAsync()
+        public async Task<List<Producto>?> GetAllAsync()
         {
             this.LoggerManager.LogInfo("REQUEST ALL Products");
             var client = httpClientFactory.CreateClient("productosService");

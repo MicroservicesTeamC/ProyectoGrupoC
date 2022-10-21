@@ -2,36 +2,34 @@
 rD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Controllers\ProductoController.cs
 
 		 #(
-- @ " 5**! 4
-6 I" 5
+- @ " 5$$! 4
+6 I" 5
 
-) 4
-     #
+) 4
+   #
 
-(() 1
-((6 8**> @
-** ,, 11 ù
+"") 1
+""6 8$$> @
+$$ && ++ ù
 kD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\IProductoRepository.cs
 
  (
 
-  
+ !
 
-% '
+& (
 
- )í
+ *˙
 jD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductoRepository.cs
 
- #(
-		* 2 " *! )
+ #<
+		* 2     %
 3 : 
 
-+ 6
-  
+& 1
 
-% -
-2 4> @
-  ‡
+& .
+3 5: <‡
 nD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductoRepositoryFake.cs
 
  '(
@@ -41,17 +39,17 @@ nD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Product
 
 - D
 
- '
-, .; =
+  (
+- /; =
  # *
 . /3 4
 
-  % 0¢
+  & 1¢
 hD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductosContext.cs
  !1 A
 C J		 
 
-' 0∑
+( 1∑
 {D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Migrations\20221019075811_InitialCreate.cs
 
  &
@@ -82,11 +80,13 @@ dD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Product
 
  
 
- "À
+ "·
 [D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Program.cs<
   !! "" ## $$ ((
  
- n u
+		 
+& )
+ J Q
  
  
   
