@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <ProjectName>SearchTest</ProjectName>
+  <ProjectName>TestEstanteria</ProjectName>
   <ProjectLanguage>C#</ProjectLanguage>
   <ProjectType>Test</ProjectType>
-  <ProjectGuid>e21778ff-1614-468e-bd4f-884520b31efe</ProjectGuid>
-  <FullPath>D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\SearchTest\SearchTest.csproj</FullPath>
+  <ProjectGuid>3d524f01-4ba6-4f71-84e2-cac4fee8d1af</ProjectGuid>
+  <FullPath>D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\TestEstanteria\TestEstanteria.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
     <AnalysisResult Id="FilesToAnalyze" Location="D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\.sonarqube\conf\4\FilesToAnalyze.txt" />

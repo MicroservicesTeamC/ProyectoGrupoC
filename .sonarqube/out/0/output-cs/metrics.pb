@@ -1,6 +1,7 @@
-Þ
-nD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Controllers\SearchController.cs 8rL	
- !"#$%&'()*+,-.012345789:;<=>?@ABCEFGHIJKLNOPQRSTUx‚!#%&)-3<=>EGKQz
+ß
+nD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Controllers\SearchController.cs 8
+rL	
+ !"#$%&'()*+,-.012345789:;<=>?@ABCEFGHIJKLNOPQRSTUx‚!"$%&)-3<=>EGKQz
 lD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Interfaces\IAlbaranService.csr	}
 oD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Interfaces\IEstanteriaService.csr	|
 mD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Interfaces\IProductoService.csr		

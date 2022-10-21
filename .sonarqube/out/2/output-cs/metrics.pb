@@ -1,18 +1,18 @@
-Ð
-rD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Controllers\ProductoController.cs	 8j5679:=>?ABDGIJKLMOQTUVXYZ[r%	
- !"$&'()*,-./12]^x‚	 "*,.1z
-kD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\IProductoRepository.csr		
-§
-jD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductoRepository.cs 8j!"$%&)*,-0134568r	;‚¨
-nD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductoRepositoryFake.cs 8r"	
- !"#$%x‚"
-hD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductosContext.cs 8r	
-³
-{D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Migrations\20221019075811_InitialCreate.cs 8r	
- !"#‚
-}
-dD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Models\Productos.cs 
-8
-r	
-¤
-[D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Program.cs 8j *r$!"#$%&(+,-./246x‚!"#$%(+-.246
+¡
+vD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Controllers\EstanteriaController.cs 8r	
+x‚‚
+kD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\DAL\EstanteriaContext.cs 8r	
+•
+lD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\DAL\EstanteriaProvider.cs 8r	
+x‚
+™
+pD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\DAL\EstanteriaProviderFake.cs 8r	
+‚
+{
+mD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\DAL\IEstanteriaProvider.csr	´
+}D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Migrations\20221020083250_InitialCreate.cs 8j
+r	 !"‚|
+hD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Models\Estanterias.cs 8r
+	
+¦
+]D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Program.cs"8j	(r$ !"#&)*+,-024x‚ !"&)+,024

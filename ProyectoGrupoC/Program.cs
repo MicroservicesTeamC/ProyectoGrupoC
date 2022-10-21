@@ -6,9 +6,7 @@ using GrupoC.AlbaranDeEntrega.DAL;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-
-
-ConfigurationManager Configuration = builder.Configuration;
+string uri = "https://clavesgrupoc.vault.azure.net/";
 
 SecretClientOptions options = new SecretClientOptions()
 {
@@ -20,7 +18,7 @@ SecretClientOptions options = new SecretClientOptions()
         Mode = RetryMode.Exponential
     }
 };
-var client = new SecretClient(new Uri("https://clavesgrupoc.vault.azure.net/"), new DefaultAzureCredential(), options);
+var client = new SecretClient(new Uri(uri), new DefaultAzureCredential(), options);
 
 KeyVaultSecret secret = client.GetSecret("ConnectionStringAlbaranes");
 

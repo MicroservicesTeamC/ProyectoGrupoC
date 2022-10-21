@@ -1,20 +1,18 @@
-¯
+Œ
 nD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Controllers\SearchController.cs
 
 
 
- !
-, = "(
-* 9  %%0 ?<<, ;
-) 7 & 4
-3 D% 6
-W f# 2
-	x †" 0
+ !(
+* 9  $$0 ?<<, ;
+) 7 & 4
+1 @# 2
+R `" 0
 
-) 5
-: F> J(
-  !!, 5)) '
-%%  '&&, 3
+) 5
+: F> J(
+  , 5)) '
+$$  '%% &&&0 7
 
 88) 7
 << #==  )>>" +
@@ -27,9 +25,9 @@ lD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\
 
  $
 
-# +
+$ ,
 
-0 <•
+1 =•
 oD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Interfaces\IEstanteriaService.cs
 
  '
@@ -45,7 +43,7 @@ mD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\
 
 % '
 
- (ž
+ )ž
 `D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Models\Albaran.cs
 
  
@@ -56,7 +54,7 @@ mD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\
 
  
 
-! *®
+" +®
 dD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Models\AlbaranItem.cs
 
  
@@ -69,7 +67,7 @@ dD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\
 
  
 
-		  •
+		 !•
 cD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Models\Estanteria.cs
 
  
@@ -105,13 +103,13 @@ YD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\
 iD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Services\AlbaranService.cs
 
  
-		# 4 " *
+		, = " *
 
 
 1 B% 6
 
-0 8
-= G@ J
+1 9
+> J@ L
  ! '
   $ ,
  Q X
@@ -122,8 +120,8 @@ lD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\
 		, = " *
 4 E% 6
 
-& .
-3 ?C O
+' /
+4 @C O
  ! '
   $ ,
  G N
@@ -134,14 +132,14 @@ kD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\
 		, = " *   *
 3 D% 6
 
-$ ,
-1 3A C
+% -
+2 4A C
  ! '
   $ ,
  F M
   
 
-* 5
++ 6
    ""! '
 "" ## %%$ ,
 %% &&M T

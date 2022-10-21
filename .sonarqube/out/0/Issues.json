@@ -12,18 +12,18 @@
       },
       "results": [
         {
-          "ruleId": "CS8613",
+          "ruleId": "CS8602",
           "level": "warning",
-          "message": "La nulabilidad de los tipos de referencia del tipo de valor devuelto de \"Task<Estanteria> EstanteriaService.GetAsync(int estanteriaId)\" no coincide con el miembro \"Task<Estanteria?> IEstanteriaService.GetAsync(int estanteriaId)\" implementado de forma implícita.",
+          "message": "Desreferencia de una referencia posiblemente NULL.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Services/EstanteriaService.cs",
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Controllers/SearchController.cs",
                 "region": {
-                  "startLine": 16,
-                  "startColumn": 39,
-                  "endLine": 16,
-                  "endColumn": 47
+                  "startLine": 61,
+                  "startColumn": 33,
+                  "endLine": 61,
+                  "endColumn": 42
                 }
               }
             }
@@ -33,144 +33,127 @@
           }
         },
         {
-          "ruleId": "CS8613",
+          "ruleId": "S3776",
           "level": "warning",
-          "message": "La nulabilidad de los tipos de referencia del tipo de valor devuelto de \"Task<Producto> ProductosService.GetAsync(int id)\" no coincide con el miembro \"Task<Producto?> IProductoService.GetAsync(int id)\" implementado de forma implícita.",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Services/ProductosService.cs",
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Controllers/SearchController.cs",
                 "region": {
-                  "startLine": 15,
-                  "startColumn": 37,
-                  "endLine": 15,
-                  "endColumn": 45
+                  "startLine": 22,
+                  "startColumn": 42,
+                  "endLine": 22,
+                  "endColumn": 54
                 }
               }
             }
           ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8603",
-          "level": "warning",
-          "message": "Posible tipo de valor devuelto de referencia nulo.",
-          "locations": [
+          "relatedLocations": [
             {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Services/ProductosService.cs",
+              "physicalLocation": {
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Controllers/SearchController.cs",
                 "region": {
-                  "startLine": 25,
-                  "startColumn": 24,
-                  "endLine": 25,
-                  "endColumn": 31
+                  "startLine": 29,
+                  "startColumn": 17,
+                  "endLine": 29,
+                  "endColumn": 19
                 }
               }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8603",
-          "level": "warning",
-          "message": "Posible tipo de valor devuelto de referencia nulo.",
-          "locations": [
+            },
             {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Services/ProductosService.cs",
+              "physicalLocation": {
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Controllers/SearchController.cs",
                 "region": {
-                  "startLine": 27,
-                  "startColumn": 20,
-                  "endLine": 27,
-                  "endColumn": 24
+                  "startLine": 31,
+                  "startColumn": 21,
+                  "endLine": 31,
+                  "endColumn": 28
                 }
               }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8603",
-          "level": "warning",
-          "message": "Posible tipo de valor devuelto de referencia nulo.",
-          "locations": [
+            },
             {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Services/ProductosService.cs",
+              "physicalLocation": {
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Controllers/SearchController.cs",
                 "region": {
-                  "startLine": 40,
-                  "startColumn": 24,
-                  "endLine": 40,
+                  "startLine": 33,
+                  "startColumn": 25,
+                  "endLine": 33,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Controllers/SearchController.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 25,
+                  "endLine": 34,
                   "endColumn": 32
                 }
               }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8603",
-          "level": "warning",
-          "message": "Posible tipo de valor devuelto de referencia nulo.",
-          "locations": [
+            },
             {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Services/ProductosService.cs",
+              "physicalLocation": {
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Controllers/SearchController.cs",
                 "region": {
-                  "startLine": 42,
-                  "startColumn": 20,
-                  "endLine": 42,
-                  "endColumn": 24
+                  "startLine": 37,
+                  "startColumn": 29,
+                  "endLine": 37,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Controllers/SearchController.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 17,
+                  "endLine": 43,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Controllers/SearchController.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 13,
+                  "endLine": 49,
+                  "endColumn": 18
                 }
               }
             }
           ],
           "properties": {
-            "warningLevel": 1
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "2": "+3 (incl 2 for nesting)",
+              "3": "+4 (incl 3 for nesting)",
+              "4": "+5 (incl 4 for nesting)",
+              "5": "+1",
+              "6": "+1"
+            }
           }
         },
         {
-          "ruleId": "CS8601",
+          "ruleId": "S3973",
           "level": "warning",
-          "message": "Posible asignación de referencia nula.",
+          "message": "Use curly braces or indentation to denote the code conditionally executed by this 'if'",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Controllers/SearchController.cs",
                 "region": {
-                  "startLine": 38,
-                  "startColumn": 45,
-                  "endLine": 38,
-                  "endColumn": 52
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"Producto\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Models/AlbaranItem.cs",
-                "region": {
-                  "startLine": 9,
+                  "startLine": 33,
                   "startColumn": 25,
-                  "endLine": 9,
-                  "endColumn": 33
+                  "endLine": 33,
+                  "endColumn": 58
                 }
               }
             }
@@ -178,12 +161,12 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Models/AlbaranItem.cs",
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Controllers/SearchController.cs",
                 "region": {
-                  "startLine": 9,
+                  "startLine": 34,
                   "startColumn": 25,
-                  "endLine": 9,
-                  "endColumn": 33
+                  "endLine": 34,
+                  "endColumn": 64
                 }
               }
             }
@@ -193,178 +176,18 @@
           }
         },
         {
-          "ruleId": "CS8618",
+          "ruleId": "S3267",
           "level": "warning",
-          "message": "El elemento propiedad \"Productos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "message": "Loop should be simplified by calling Select(albaran => albaran.Productos))",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Models/Albaran.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 34,
-                  "endLine": 8,
-                  "endColumn": 43
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Models/Albaran.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 34,
-                  "endLine": 8,
-                  "endColumn": 43
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8603",
-          "level": "warning",
-          "message": "Posible tipo de valor devuelto de referencia nulo.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Services/AlbaranService.cs",
-                "region": {
-                  "startLine": 24,
-                  "startColumn": 24,
-                  "endLine": 24,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8603",
-          "level": "warning",
-          "message": "Posible tipo de valor devuelto de referencia nulo.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Services/AlbaranService.cs",
-                "region": {
-                  "startLine": 27,
-                  "startColumn": 20,
-                  "endLine": 27,
-                  "endColumn": 24
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8603",
-          "level": "warning",
-          "message": "Posible tipo de valor devuelto de referencia nulo.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Services/EstanteriaService.cs",
-                "region": {
-                  "startLine": 28,
-                  "startColumn": 24,
-                  "endLine": 28,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8603",
-          "level": "warning",
-          "message": "Posible tipo de valor devuelto de referencia nulo.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Services/EstanteriaService.cs",
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Controllers/SearchController.cs",
                 "region": {
                   "startLine": 31,
-                  "startColumn": 20,
-                  "endLine": 31,
-                  "endColumn": 24
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'httpClientFactory' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Services/AlbaranService.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 36,
-                  "endLine": 9,
-                  "endColumn": 53
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S4487",
-          "level": "warning",
-          "message": "Remove this unread private field 'estanteriaService' or refactor the code to use its value.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Controllers/SearchController.cs",
-                "region": {
-                  "startLine": 12,
                   "startColumn": 45,
-                  "endLine": 12,
-                  "endColumn": 62
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S927",
-          "level": "warning",
-          "message": "Rename parameter 'customerId' to 'estanteriaId' to match the interface declaration.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Search/Services/AlbaranService.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 62,
-                  "endLine": 14,
-                  "endColumn": 72
+                  "endLine": 31,
+                  "endColumn": 54
                 }
               }
             }
@@ -375,11 +198,11 @@
         }
       ],
       "rules": {
-        "CS8601": {
-          "id": "CS8601",
-          "shortDescription": "Posible asignación de referencia nula",
+        "CS8602": {
+          "id": "CS8602",
+          "shortDescription": "Desreferencia de una referencia posiblemente NULL.",
           "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8601)",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8602)",
           "properties": {
             "category": "Compiler",
             "isEnabledByDefault": true,
@@ -389,57 +212,31 @@
             ]
           }
         },
-        "CS8603": {
-          "id": "CS8603",
-          "shortDescription": "Posible tipo de valor devuelto de referencia nulo",
+        "S3267": {
+          "id": "S3267",
+          "shortDescription": "Loops should be simplified with \"LINQ\" expressions",
+          "fullDescription": "When a loop is filtering, selecting or aggregating, those functions can be handled with a clearer, more concise LINQ expression instead.",
           "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8603)",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3267",
           "properties": {
-            "category": "Compiler",
+            "category": "Minor Code Smell",
             "isEnabledByDefault": true,
             "tags": [
-              "Compiler",
-              "Telemetry"
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
             ]
           }
         },
-        "CS8613": {
-          "id": "CS8613",
-          "shortDescription": "La nulabilidad de los tipos de referencia en el tipo de valor devuelto no coincide con el miembro implementado de forma implícita",
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "Cognitive Complexity is a measure of how hard the control flow of a method is to understand. Methods with high Cognitive Complexity will be difficult to maintain.",
           "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8613)",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
           "properties": {
-            "category": "Compiler",
-            "isEnabledByDefault": true,
-            "tags": [
-              "Compiler",
-              "Telemetry"
-            ]
-          }
-        },
-        "CS8618": {
-          "id": "CS8618",
-          "shortDescription": "Un campo que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declararlo como que admite un valor NULL.",
-          "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
-          "properties": {
-            "category": "Compiler",
-            "isEnabledByDefault": true,
-            "tags": [
-              "Compiler",
-              "Telemetry"
-            ]
-          }
-        },
-        "S2933": {
-          "id": "S2933",
-          "shortDescription": "Fields that are only assigned in the constructor should be \"readonly\"",
-          "fullDescription": "readonly fields can only be assigned in a class constructor. If a class has a field that’s not marked readonly but is only set in the constructor, it could cause confusion about the field’s intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2933",
-          "properties": {
-            "category": "Major Code Smell",
-            "isEnabledByDefault": true,
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
             "tags": [
               "C#",
               "MainSourceScope",
@@ -448,30 +245,12 @@
             ]
           }
         },
-        "S4487": {
-          "id": "S4487",
-          "shortDescription": "Unread \"private\" fields should be removed",
-          "fullDescription": "Private fields only used to store values without reading them later is a case of dead store. So changing the value of such field is useless and most probably indicates a serious error in the code.",
-          "defaultLevel": "note",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4487",
-          "properties": {
-            "category": "Critical Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "TestSourceScope",
-              "SonarWay",
-              "Unnecessary"
-            ]
-          }
-        },
-        "S927": {
-          "id": "S927",
-          "shortDescription": "Parameter names should match base declaration and other partial definitions",
-          "fullDescription": "The name of a parameter in an externally visible. This rule raises an issue when method override does not match the name of the parameter in the base declaration of the method, or the name of the parameter in the interface declaration of the method or the name of any other partial definition.",
+        "S3973": {
+          "id": "S3973",
+          "shortDescription": "A conditionally executed single line should be denoted by indentation",
+          "fullDescription": "In the absence of enclosing curly braces, the line immediately after a conditional is the one that is conditionally executed. By both convention and good practice, such lines are indented. In the absence of both curly braces and indentation the intent of the original programmer is entirely unclear and perhaps not actually what is executed. Additionally, such code is highly likely to be confusing to maintainers.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-927",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3973",
           "properties": {
             "category": "Critical Code Smell",
             "isEnabledByDefault": true,

@@ -4,7 +4,7 @@ namespace GrupoC.AlbaranDeEntrega.DAL
 {
     public class AlbaranProviderFake : IAlbaranProvider
     {
-        private List<Albaran> Albaran = new ();
+        private readonly List<Albaran> Albaran = new ();
         public AlbaranProviderFake()
         {
             Albaran.Add(new Albaran() { Id = 1, AlbaranDate = DateTime.Now.AddMonths(-1), EstanteriaId = 1,
@@ -64,9 +64,9 @@ namespace GrupoC.AlbaranDeEntrega.DAL
                 }
             });
         }
-        public async Task<ICollection<Albaran>> GetAsnyc(int id)
+        public async Task<ICollection<Albaran>> GetAsnyc(int estanteriaId)
         {
-            var customer = Albaran.Where(o => o.EstanteriaId == id).ToList();
+            var customer = Albaran.Where(o => o.EstanteriaId == estanteriaId).ToList();
             return await Task.FromResult(customer);
         }
     }

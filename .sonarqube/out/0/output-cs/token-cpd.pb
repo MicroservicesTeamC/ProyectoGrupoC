@@ -1,4 +1,4 @@
-’-
+Ý,
 nD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Controllers\SearchController.cs
 	namespace 	
 GrupoC
@@ -37,129 +37,130 @@ nD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\
 $ 2
 { 
 private 
-readonly 
-IEstanteriaService +
-estanteriaService, =
-;= >
+readonly 
+IProductoService )
+productoService* 9
+;9 :
 private 
-readonly 
-IProductoService )
-productoService* 9
-;9 :
-private 
-readonly 
-IAlbaranService (
-albaranService) 7
-;7 8
-public 
-SearchController 
-(  
-IEstanteriaService  2
-estanteriaService3 D
-,D E
-IProductoServiceF V
-productoServiceW f
-,f g
-IAlbaranServiceh w
-albaranService	x †
-)
-† ‡
-{ 	
+readonly 
+IAlbaranService (
+albaranService) 7
+;7 8
+public 
+SearchController 
+(  
+IProductoService  0
+productoService1 @
+,@ A
+IAlbaranServiceB Q
+albaranServiceR `
+)` a
+{ 	
+this 
+. 
+productoService  
+=! "
+productoService# 2
+;2 3
 this 
-. 
-estanteriaService "
-=# $
-estanteriaService% 6
-;6 7
-this 
-. 
-productoService  
-=! "
-productoService# 2
-;2 3
-this 
-. 
-albaranService 
-=  !
-albaranService" 0
-;0 1
-} 	
-[ 	
-HttpGet	 
-( 
-$str )
-)) *
-]* +
-public 
-async 
-Task 
-< 
-IActionResult '
->' (
-AlbaranAsync) 5
-(5 6
-int6 9
-estanteriaId: F
-)F G
-{ 	
-try 
-{ 
-var 
-	albaranes 
-= 
-await  %
-albaranService& 4
-.4 5
-GetAsync5 =
-(= >
-estanteriaId> J
-)J K
-;K L
-if 
-( 
-	albaranes 
-!=  
-null! %
-)% &
-{   
-foreach!! 
-(!! 
-var!!  
-albaran!!! (
-in!!) +
-	albaranes!!, 5
-)!!5 6
-{"" 
-foreach## 
-(##  !
-var##! $
-item##% )
-in##* ,
-albaran##- 4
-.##4 5
-	Productos##5 >
-)##> ?
-{$$ 
-var%% 
-product%%  '
-=%%( )
-await%%* /
-productoService%%0 ?
-.%%? @
-GetAsync%%@ H
-(%%H I
-item%%I M
-.%%M N
+. 
+albaranService 
+=  !
+albaranService" 0
+;0 1
+} 	
+[ 	
+HttpGet	 
+( 
+$str )
+)) *
+]* +
+public 
+async 
+Task 
+< 
+IActionResult '
+>' (
+AlbaranAsync) 5
+(5 6
+int6 9
+estanteriaId: F
+)F G
+{ 	
+try 
+{ 
+var 
+	albaranes 
+= 
+await  %
+albaranService& 4
+.4 5
+GetAsync5 =
+(= >
+estanteriaId> J
+)J K
+;K L
+if 
+( 
+	albaranes 
+!=  
+null! %
+)% &
+{ 
+foreach 
+( 
+var  
+albaran! (
+in) +
+	albaranes, 5
+)5 6
+{   
+if!! 
+(!! 
+albaran!! "
+.!!" #
+	Productos!!# ,
+is!!- /
+not!!0 3
+null!!4 8
+)!!8 9
+foreach"" 
+(""  !
+var""! $
+item""% )
+in""* ,
+albaran""- 4
+.""4 5
+	Productos""5 >
+)""> ?
+{## 
+var$$ 
+product$$  '
+=$$( )
+await$$* /
+productoService$$0 ?
+.$$? @
+GetAsync$$@ H
+($$H I
+item$$I M
+.$$M N
 
-ProductoId%%N X
-)%%X Y
-;%%Y Z
-item&&  
-.&&  !
-Producto&&! )
-=&&* +
-product&&, 3
-;&&3 4
+ProductoId$$N X
+)$$X Y
+;$$Y Z
+if%% 
+(%% 
+product%% &
+is%%' )
+not%%* -
+null%%. 2
+)%%2 3
+item&&  $
+.&&$ %
+Producto&&% -
+=&&. /
+product&&0 7
+;&&7 8
 }'' 
 }(( 
 return)) 
@@ -326,7 +327,7 @@ BadRequestQQ !
 }RR 
 }SS" #
 }TT 
-}UU Ë
+}UU Ú
 lD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Interfaces\IAlbaranService.cs
 	namespace 	
 GrupoC
@@ -348,13 +349,14 @@ Interfaces "
 < 
 Albaran  
 >  !
->! "
-GetAsync# +
-(+ ,
-int, /
-estanteriaId0 <
-)< =
-;= >
+?! "
+>" #
+GetAsync$ ,
+(, -
+int- 0
+estanteriaId1 =
+)= >
+;> ?
 } 
 }		 ¬
 oD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Interfaces\IEstanteriaService.cs
@@ -385,7 +387,7 @@ Estanteria 
 )3 4
 ;4 5
 } 
-}		 Ø
+}		 ç
 mD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Interfaces\IProductoService.cs
 	namespace 	
 GrupoC
@@ -418,15 +420,16 @@ Interfaces "
 < 
 Producto 
 > 
-> 
-GetAllAsync (
-(( )
-)) *
-;* +
+? 
+> 
+GetAllAsync )
+() *
+)* +
+;+ ,
 }		 
 }
 
- è
+ ÷
 `D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Models\Albaran.cs
 	namespace 	
 GrupoC
@@ -472,18 +475,19 @@ Interfaces "
 List 
 < 
 AlbaranItem 
->  
-	Productos! *
-{+ ,
-get- 0
-;0 1
-set2 5
-;5 6
-}7 8
+>  
+?  !
+	Productos" +
+{, -
+get. 1
+;1 2
+set3 6
+;6 7
+}8 9
 }		 
 }
 
- Ì
+ Û
 dD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Models\AlbaranItem.cs
 	namespace 	
 GrupoC
@@ -536,14 +540,15 @@ ProductoId 
 ;& '
 }( )
 public		 
-Producto		 
-Producto		  
-{		! "
-get		# &
-;		& '
-set		( +
-;		+ ,
-}		- .
+Producto		 
+?		 
+Producto		 !
+{		" #
+get		$ '
+;		' (
+set		) ,
+;		, -
+}		. /
 }
 
  
@@ -890,7 +895,7 @@ UseSwagger## 
 (,, 
 ),, 	
 ;,,	 
-ÿ
+¨
 iD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Services\AlbaranService.cs
 	namespace 	
 GrupoC
@@ -907,10 +912,11 @@ iD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\
 :  !
 IAlbaranService" 1
 { 
-private		 
-IHttpClientFactory		 "
-httpClientFactory		# 4
-;		4 5
+private		 
+readonly		 
+IHttpClientFactory		 +
+httpClientFactory		, =
+;		= >
 public
 
  
@@ -945,13 +951,13 @@ iD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\
 <% &
 Albaran& -
 >- .
->. /
-GetAsync0 8
-(8 9
-int9 <
-
-customerId= G
-)G H
+?. /
+>/ 0
+GetAsync1 9
+(9 :
+int: =
+estanteriaId> J
+)J K
 { 	
 var 
 client 
@@ -973,13 +979,12 @@ customerId= G
 (0 1
 $"1 3
 $str3 ?
-{? @
-
-customerId@ J
-}J K
-"K L
-)L M
-;M N
+{? @
+estanteriaId@ L
+}L M
+"M N
+)N O
+;O P
 if 
 ( 
 response 
@@ -1024,7 +1029,7 @@ customerId@ J
 ; 
 } 	
 } 
-} ½
+} Ì
 lD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Services\EstanteriaService.cs
 	namespace 	
 GrupoC
@@ -1066,12 +1071,13 @@ lD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\
 < 
 
 Estanteria $
->$ %
-GetAsync& .
-(. /
-int/ 2
-estanteriaId3 ?
-)? @
+?$ %
+>% &
+GetAsync' /
+(/ 0
+int0 3
+estanteriaId4 @
+)@ A
 { 	
 var 
 client 
@@ -1141,7 +1147,7 @@ Estanteria; E
 ; 
 }   	
 }!! 
-}"" ¯
+}"" Í
 kD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Services\ProductosService.cs
 	namespace 	
 GrupoC
@@ -1182,12 +1188,13 @@ kD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\
 Task 
 < 
 Producto "
->" #
-GetAsync$ ,
-(, -
-int- 0
-id1 3
-)3 4
+?" #
+># $
+GetAsync% -
+(- .
+int. 1
+id2 4
+)4 5
 { 	
 var 
 client 
@@ -1263,10 +1270,11 @@ kD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\
 < 
 Producto '
 >' (
->( )
-GetAllAsync* 5
-(5 6
-)6 7
+?( )
+>) *
+GetAllAsync+ 6
+(6 7
+)7 8
 { 	
 var   
 client   

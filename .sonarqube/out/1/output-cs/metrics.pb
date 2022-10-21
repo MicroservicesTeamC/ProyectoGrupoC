@@ -16,5 +16,5 @@ aD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC
 y
 eD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Models\AlbaranItem.cs 8r
 	
-¥
-ZD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Program.cs"8j!+r% "#$%&'),-./0357x‚ "#$%&),./357
+¤
+ZD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Program.cs"8j)r%	 !"#$%'*+,-.135x‚ !"#$'*,-135

@@ -2,7 +2,7 @@
 
 namespace GrupoC.Producto.DAL
 {
-    public class ProductoRepositoryFake: IProductoRepository
+    public class ProductoRepositoryFake : IProductoRepository
     {
         private readonly List<Productos> repo = new List<Productos>();
 
@@ -23,13 +23,13 @@ namespace GrupoC.Producto.DAL
         public ProductoRepositoryFake(string CreacionRepositoriVacio) 
         { 
         }
-        public Task<Productos> GetAsync(int id)
+        public Task<Productos?> GetAsync(int id)
         {
             var product = repo.FirstOrDefault(p => p.Id == id);
             return Task.FromResult(product);
         }
 
-        public Task<List<Productos>> GetAllAsync()
+        public Task<List<Productos>>? GetAllAsync()
         {
             return Task.FromResult(repo);
         }

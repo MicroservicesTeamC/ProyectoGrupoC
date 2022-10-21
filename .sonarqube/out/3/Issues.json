@@ -12,55 +12,18 @@
       },
       "results": [
         {
-          "ruleId": "CS8603",
+          "ruleId": "CS8602",
           "level": "warning",
-          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "message": "Desreferencia de una referencia posiblemente NULL.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Estanteria/DAL/EstanteriaProvider.cs",
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Producto/Controllers/ProductoController.cs",
                 "region": {
-                  "startLine": 15,
-                  "startColumn": 20,
-                  "endLine": 15,
-                  "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"Estanterias\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "suppressionStates": [
-            "suppressedInSource"
-          ],
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Estanteria/DAL/EstanteriaContext.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 16,
-                  "endLine": 8,
-                  "endColumn": 33
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Estanteria/DAL/EstanteriaContext.cs",
-                "region": {
-                  "startLine": 12,
+                  "startLine": 22,
                   "startColumn": 35,
-                  "endLine": 12,
-                  "endColumn": 46
+                  "endLine": 22,
+                  "endColumn": 68
                 }
               }
             }
@@ -70,18 +33,18 @@
           }
         },
         {
-          "ruleId": "CS8603",
+          "ruleId": "CS8625",
           "level": "warning",
-          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Estanteria/DAL/EstanteriaProviderFake.cs",
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Producto/DAL/ProductoRepository.cs",
                 "region": {
-                  "startLine": 18,
-                  "startColumn": 20,
-                  "endLine": 18,
-                  "endColumn": 51
+                  "startLine": 23,
+                  "startColumn": 53,
+                  "endLine": 23,
+                  "endColumn": 57
                 }
               }
             }
@@ -97,12 +60,33 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Estanteria/Program.cs",
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Producto/Program.cs",
                 "region": {
-                  "startLine": 21,
-                  "startColumn": 39,
-                  "endLine": 21,
-                  "endColumn": 78
+                  "startLine": 9,
+                  "startColumn": 14,
+                  "endLine": 9,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2245",
+          "level": "warning",
+          "message": "Make sure that using this pseudorandom number generator is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Producto/DAL/ProductoRepositoryFake.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 28,
+                  "endLine": 13,
+                  "endColumn": 40
                 }
               }
             }
@@ -113,11 +97,11 @@
         }
       ],
       "rules": {
-        "CS8603": {
-          "id": "CS8603",
-          "shortDescription": "Posible tipo de valor devuelto de referencia nulo",
+        "CS8602": {
+          "id": "CS8602",
+          "shortDescription": "Desreferencia de una referencia posiblemente NULL.",
           "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8603)",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8602)",
           "properties": {
             "category": "Compiler",
             "isEnabledByDefault": true,
@@ -127,11 +111,11 @@
             ]
           }
         },
-        "CS8618": {
-          "id": "CS8618",
-          "shortDescription": "Un campo que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declararlo como que admite un valor NULL.",
+        "CS8625": {
+          "id": "CS8625",
+          "shortDescription": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
           "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8625)",
           "properties": {
             "category": "Compiler",
             "isEnabledByDefault": true,
@@ -149,6 +133,22 @@
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1075",
           "properties": {
             "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2245": {
+          "id": "S2245",
+          "shortDescription": "Using pseudorandom number generators (PRNGs) is security-sensitive",
+          "fullDescription": "Using pseudorandom number generators (PRNGs) is security-sensitive. For example, it has led in the past to the following vulnerabilities:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2245",
+          "properties": {
+            "category": "Critical Security Hotspot",
             "isEnabledByDefault": true,
             "tags": [
               "C#",

@@ -1,95 +1,80 @@
-Æ
-rD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Controllers\ProductoController.cs
+¸
+vD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Controllers\EstanteriaController.cs
 
-		 #(
-- @ " 5**! 4
-6 I" 5
+ %
+
+
+- ? # 1
+8 J& 8
 
-) 4
-     #
+) 1
+6 8; =
+  * 0•
+kD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\DAL\EstanteriaContext.cs
+ "2 C
+E L		 
 
-(() 1
-((6 8**> @
-** ,, 11 ù
-kD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\IProductoRepository.cs
+" -‹
+lD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\DAL\EstanteriaProvider.cs
+
+ #(
++ 3
+
+   %
+4 ;
+
+ 
+
+( 0
+5 7< >ä
+pD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\DAL\EstanteriaProviderFake.cs
+
+ '<
++ 6
+
+     &
+
+( 0
+5 7C E
+ ) 1
+6 7; <ì
+mD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\DAL\IEstanteriaProvider.cs
 
  (
 
-  
+ #
 
-% '
-
- )í
-jD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductoRepository.cs
-
- #(
-		* 2 " *! )
-3 : 
-
-+ 6
-  
-
-% -
-2 4> @
-  ‡
-nD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductoRepositoryFake.cs
-
- '(
-) -  ""# '<
-  % & ) *% &
- 7 8
-
-- D
-
- '
-, .; =
- # *
-. /3 4
-
-  % 0¢
-hD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductosContext.cs
- !1 A
-C J		 
-
-' 0∑
-{D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Migrations\20221019075811_InitialCreate.cs
+( *•
+}D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Migrations\20221020083250_InitialCreate.cs
 
  &
 
-
-
-  "
-
-
-4 D <
-   " "# (  %
- " 
-5 6: ;
+  "
+4 D (
+      %
+ " 
+7 8< =
 
-  $
-6 F Æ
-dD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Models\Productos.cs
+  $
+6 F ö
+hD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Models\Estanterias.cs
 
- 
+ 
 
  
 
-
-
- 
+ 
 
- 
-
- 
-
- "À
-[D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Program.cs<
-  !! "" ## $$ ((
+		 „
+]D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Program.cs<
+       !! &&
  
- n u
+ 
+& )
+ J Q
  
  
   
- %%) 4
-$$0 7%% @
-(( ++ -- .. 22 44 66 
+ "") 4
+!!1 8"" @
+&& )) ++ ,, 00 22 44 

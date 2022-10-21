@@ -14,46 +14,26 @@ namespace GrupoC.Producto.DAL
         }
 
 
-        public async Task<List<Productos>> GetAllAsync()
+        public Task<List<Productos>>? GetAllAsync()
         {
-            var productos = await _context.Productos.ToListAsync();
-            return productos;
+            if (_context.Productos is not null)
+            {
+                return _context.Productos.ToListAsync();
+            }
+            return Task.FromResult<List<Productos>>(null);
         }
 
-        public async Task<Productos> GetAsync(int id)
+        public async Task<Productos?> GetAsync(int id)
         {
-            var producto = await _context.Productos.FindAsync(id);
-
-            return producto;
+            if(_context.Productos is not null)
+            {
+                return await _context.Productos.FindAsync(id);
+            }
+            return null;
         }
     }
 
 
 
-        //// Create
-        //public async Task<int> Create(Models.Producto producto)
-        //{
-        //    producto.FechaAlta = DateTime.Now;
-        //    _context.Add(producto);
-        //    return await _context.SaveChangesAsync();
-        //}
-
-        //// Update
-        //public async Task<int> Update(Models.Producto producto)
-        //{
-        //    _context.Update(producto);
-        //    return await _context.SaveChangesAsync();
-        //}
-
-        //// Delete
-        //public async Task<bool> Delete(int Id)
-        //{
-        //    var producto = await _context.Productos.FindAsync(Id);
-        //    _context.Productos.Remove(producto);
-        //    if (await _context.SaveChangesAsync() >= 0)
-        //        return true;
-
-        //    return false;
-        //}
-    //}
+       
 }
