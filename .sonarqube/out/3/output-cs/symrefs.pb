@@ -1,51 +1,73 @@
-ò
-nD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Controllers\SearchController.cs
-
+Ø
+iD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Context\AlbaranContext.cs
 
 
- !(
-* 9  $$4 C??& 5
-) 7 & 4
-1 @# 2
-R `" 0
+ / =
+? F 
 
-) 5
-: F> J(
-  , 5++ '
-< =A B
-$$$ +%%$ +&&4 ;
+ '
 
-::) 7(
-?? @@ BB$ -CC& /
-BB !FF$ -
-BB6 7BB; <
-CC #GG& 1
-CC8 9CC= >
-DD !JJ 'í
-lD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Interfaces\IAlbaranService.cs
+" .ˆ
+pD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Controllers\AlbaranController.cs
 
- $
+ "
+
+
+* 9   .
+2 A# 2
 
-$ ,
+) 1
+6 B8 D
+  - 3∏
+fD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\DAL\AlbaranProvider.cs
 
-1 =ï
-oD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Interfaces\IEstanteriaService.cs
+  (
+
+
+( 0   (/ 7
+. 5 
 
- '
+0 8
+= IP \
+   ' 
+9 :> ?
+" ,! +
+K LP Qé
+jD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\DAL\AlbaranProviderFake.cs
 
- "
+ $F
+' .
+
+   ** 66 EE "
 
-' 3ü
-mD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Interfaces\IProductoService.cs
+CC0 8
+CC= IEE@ L
+EE FF) 1
+EE) *EE. /ç
+gD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\DAL\IAlbaranProvider.cs
 
  %
 
-  
+# +
 
-% '
+0 <¿
+zD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Migrations\20221020083624_InitialCreate.cs
 
- )û
-`D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Models\Albaran.cs
+		 &
+
+  "(
+4 D  11 (
+  " '# (
+ " 
+5 6: ;2
+    ""  %##! &$$ $
+&& "(( )) 
+((8 9((= >
+++  !++% &
+
+88  $
+886 F:: == ü
+aD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Models\Albaran.cs
 
  
 
@@ -55,8 +77,8 @@ mD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\
 
  
 
-" +Æ
-dD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Models\AlbaranItem.cs
+" +£
+eD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Models\AlbaranItem.cs
 
  
 
@@ -64,84 +86,18 @@ dD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\
 
  
 
- 
+ !
 
- 
-
-		 !ï
-cD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Models\Estanteria.cs
-
- 
-
- 
-
- 
-
- ´
-aD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Models\Producto.cs
-
- 
-
- 
-
- 
-
- 
-
- 
-
-		 !Ò
-YD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Program.csf
- % , 
-
-        
- (
- " ) ) )
-5 6 
-3 4 
-1 2 @
- !! ## $$ (( ** ,, ±
-iD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Services\AlbaranService.cs
-
- 
-		, = " *
+ Ù
+ZD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Program.cs<
+    "" ## $$ %% ))
+ 
 
 
-1 B% 6
-
-1 9
-> J@ L
- ! '
-  $ ,
- Q X
-  ¥
-lD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Services\EstanteriaService.cs
-
- "
-		, = " *
-4 E% 6
-
-' /
-4 @C O
- ! '
-  $ ,
- G N
-  ´
-kD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Services\ProductosService.cs
-
- !(
-		, = " *   *
-3 D% 6
-
-% -
-2 4A C
- ! '
-  $ ,
- F M
-  
-
-+ 6
-   ""! '
-"" ## %%$ ,
-%% &&M T
-&& (( 
+ N U
+  &&) 4
+  * -
+  "
+  
+%%. 5&& @
+)) ,, .. // 33 55 77 

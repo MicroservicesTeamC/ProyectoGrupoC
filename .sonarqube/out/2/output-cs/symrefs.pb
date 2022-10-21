@@ -1,16 +1,16 @@
-Æ
+∏
 rD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Controllers\ProductoController.cs
 
 		 #(
-- @ " 5$$! 4
+- @ " 5''! 4
 6 I" 5
 
-) 4
-   #
+) 4(
+    '
 
-"") 1
-""6 8$$> @
-$$ && ++ ù
+%%) 1
+%%6 8''> @
+'' )) .. ù
 kD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\IProductoRepository.cs
 
  (
@@ -23,13 +23,13 @@ kD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Product
 jD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductoRepository.cs
 
  #<
-		* 2     %
+		* 2     %
 3 : 
 
 & 1
 
-& .
-3 5: <‡
+& .
+3 5: <‡
 nD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductoRepositoryFake.cs
 
  '(
@@ -80,16 +80,16 @@ dD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Product
 
  
 
- "·
+ "ı
 [D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Program.cs<
-  !! "" ## $$ ((
+  ## $$ %% && **
  
-		 
-& )
- J Q
- 
- 
-  
- %%) 4
-$$0 7%% @
-(( ++ -- .. 22 44 66 
+
+
+ N U
+  '') 4
+  * -
+  "
+  
+&&0 7'' @
+** -- // 00 44 66 88 

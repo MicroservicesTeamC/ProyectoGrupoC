@@ -22,10 +22,7 @@ namespace GrupoC.Producto.Controllers
             var productos = await _productoRepository.GetAllAsync();
             if(productos is not null)
             {
-                if (productos.Count > 0)
-                {
-                    return Ok(productos);
-                }
+                return Ok(productos);   
             }
            
             return NotFound();

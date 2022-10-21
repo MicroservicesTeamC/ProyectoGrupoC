@@ -14,5 +14,5 @@ mD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estante
 r	 !"‚|
 hD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Models\Estanterias.cs 8r
 	
-¦
-]D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Program.cs"8j	(r$ !"#&)*+,-024x‚ !"&)+,024
+¬
+]D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Program.cs#8j	#.r("$%&'(),/012368:x‚"$%&'(,/1268:
