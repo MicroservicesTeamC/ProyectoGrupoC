@@ -12,27 +12,6 @@
       },
       "results": [
         {
-          "ruleId": "CS8613",
-          "level": "warning",
-          "message": "La nulabilidad de los tipos de referencia del tipo de valor devuelto de \"Task<List<Productos>>? ProductoRepositoryFake.GetAllAsync()\" no coincide con el miembro \"Task<List<Productos>?> IProductoRepository.GetAllAsync()\" implementado de forma implícita.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Producto/DAL/ProductoRepositoryFake.cs",
-                "region": {
-                  "startLine": 32,
-                  "startColumn": 39,
-                  "endLine": 32,
-                  "endColumn": 50
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "CS8619",
           "level": "warning",
           "message": "La nulabilidad de los tipos de referencia en el valor de tipo \"Task<List<Productos>>\" no coincide con el tipo de destino \"Task<List<Productos>?>\".",
@@ -41,44 +20,10 @@
               "resultFile": {
                 "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Producto/DAL/ProductoRepository.cs",
                 "region": {
-                  "startLine": 22,
+                  "startLine": 21,
                   "startColumn": 24,
-                  "endLine": 22,
+                  "endLine": 21,
                   "endColumn": 56
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1066",
-          "level": "warning",
-          "message": "Merge this if statement with the enclosing one.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Producto/Controllers/ProductoController.cs",
-                "region": {
-                  "startLine": 25,
-                  "startColumn": 17,
-                  "endLine": 25,
-                  "endColumn": 19
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Producto/Controllers/ProductoController.cs",
-                "region": {
-                  "startLine": 23,
-                  "startColumn": 13,
-                  "endLine": 23,
-                  "endColumn": 15
                 }
               }
             }
@@ -110,20 +55,6 @@
         }
       ],
       "rules": {
-        "CS8613": {
-          "id": "CS8613",
-          "shortDescription": "La nulabilidad de los tipos de referencia en el tipo de valor devuelto no coincide con el miembro implementado de forma implícita",
-          "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8613)",
-          "properties": {
-            "category": "Compiler",
-            "isEnabledByDefault": true,
-            "tags": [
-              "Compiler",
-              "Telemetry"
-            ]
-          }
-        },
         "CS8619": {
           "id": "CS8619",
           "shortDescription": "La nulabilidad de los tipos de referencia del valor no coincide con el tipo de destino",
@@ -135,23 +66,6 @@
             "tags": [
               "Compiler",
               "Telemetry"
-            ]
-          }
-        },
-        "S1066": {
-          "id": "S1066",
-          "shortDescription": "Collapsible \"if\" statements should be merged",
-          "fullDescription": "Merging collapsible if statements increases the code’s readability.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1066",
-          "properties": {
-            "category": "Major Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "TestSourceScope",
-              "SonarWay"
             ]
           }
         },

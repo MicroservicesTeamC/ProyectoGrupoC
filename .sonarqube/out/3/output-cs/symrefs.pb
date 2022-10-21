@@ -1,103 +1,78 @@
-Ø
-iD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Context\AlbaranContext.cs
+¸
+vD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Controllers\EstanteriaController.cs
+
+ %
 
 
- / =
-? F 
-
- '
-
-" .ˆ
-pD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Controllers\AlbaranController.cs
-
- "
-
-
-* 9   .
-2 A# 2
+- ? # 1
+8 J& 8
 
 ) 1
-6 B8 D
-  - 3∏
-fD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\DAL\AlbaranProvider.cs
+6 8; =
+  * 0•
+kD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\DAL\EstanteriaContext.cs
+ "2 C
+E L		 
 
-  (
-
+" -‹
+lD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\DAL\EstanteriaProvider.cs
+
+ #(
++ 3
 
-( 0   (/ 7
-. 5 
-
-0 8
-= IP \
-   ' 
-9 :> ?
-" ,! +
-K LP Qé
-jD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\DAL\AlbaranProviderFake.cs
-
- $F
-' .
+   %
+4 ;
 
-   ** 66 EE "
+ 
 
-CC0 8
-CC= IEE@ L
-EE FF) 1
-EE) *EE. /ç
-gD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\DAL\IAlbaranProvider.cs
+( 0
+5 7< >ä
+pD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\DAL\EstanteriaProviderFake.cs
 
- %
+ '<
++ 6
+
+     &
 
-# +
+( 0
+5 7C E
+ ) 1
+6 7; <ì
+mD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\DAL\IEstanteriaProvider.cs
 
-0 <¿
-zD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Migrations\20221020083624_InitialCreate.cs
+ (
 
-		 &
+ #
 
-  "(
-4 D  11 (
-  " '# (
- " 
-5 6: ;2
-    ""  %##! &$$ $
-&& "(( )) 
-((8 9((= >
-++  !++% &
+( *•
+}D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Migrations\20221020083250_InitialCreate.cs
 
-88  $
-886 F:: == ü
-aD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Models\Albaran.cs
+ &
 
- 
+  "
+4 D (
+      %
+ " 
+7 8< =
 
- 
+  $
+6 F ö
+hD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Models\Estanterias.cs
 
- #
+ 
 
- 
+ 
 
-" +£
-eD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Models\AlbaranItem.cs
+ 
 
- 
-
- 
-
- 
-
- !
-
- Ù
-ZD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Program.cs<
-    "" ## $$ %% ))
+		 ˜
+]D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Program.cs<
+ "" $$ %% && '' ,,
  
-
-
- N U
-  &&) 4
-  * -
-  "
-  
-%%. 5&& @
-)) ,, .. // 33 55 77 
+ N U
+  (() 4
+  * -
+  "
+  
+''1 8(( @
+,, // 11 22 66 88 :: 

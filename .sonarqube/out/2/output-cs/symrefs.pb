@@ -1,16 +1,16 @@
-∏
+Æ
 rD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Controllers\ProductoController.cs
 
 		 #(
-- @ " 5''! 4
+- @ " 5$$! 4
 6 I" 5
 
-) 4(
-    '
+) 4
+   #
 
-%%) 1
-%%6 8''> @
-'' )) .. ù
+"") 1
+""6 8$$> @
+$$ && ++ ù
 kD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\IProductoRepository.cs
 
  (
@@ -23,28 +23,28 @@ kD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Product
 jD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductoRepository.cs
 
  #<
-		* 2     %
+		* 2     %
 3 : 
 
 & 1
 
-& .
-3 5: <‡
+& .
+3 5: <Í
 nD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductoRepositoryFake.cs
 
- '(
-) -  ""# '<
+ '2
+* .   "&&# '<
   % & ) *% &
  7 8
 
 - D
 
   (
-- /; =
- # *
-. /3 4
+- /? A
+ ' .
+2 37 8
 
-  & 1¢
+$$& 1¢
 hD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductosContext.cs
  !1 A
 C J		 
