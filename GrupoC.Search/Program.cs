@@ -1,11 +1,18 @@
 using GrupoC.Search.Interfaces;
+using GrupoC.Search.Logs;
 using GrupoC.Search.Services;
 using Polly;
 using Polly.Extensions.Http;
+using NLog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
+
+
 var retryPolicy = GetRetryPolicy();
 var circuitBreakerPolicy = GetCircuitBreakerPolicy();
+
 ConfigurationManager configuration = builder.Configuration;
 // Add services to the container.
 
@@ -36,6 +43,8 @@ builder.Services.AddHttpClient("albaranService", c =>
     .AddPolicyHandler(retryPolicy)
     .AddPolicyHandler(circuitBreakerPolicy); ;
 
+LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
+builder.Services.AddSingleton<ILoggerManager, LoggerManager>(); 
 builder.Services.AddScoped<IEstanteriaService, EstanteriaService>();
 builder.Services.AddScoped<IProductoService, ProductosService>();
 builder.Services.AddScoped<IAlbaranService, AlbaranService>();
@@ -58,7 +67,7 @@ app.Run();
 
 
 
-//métodos
+//mÃ©todos
 static IAsyncPolicy<HttpResponseMessage> GetCircuitBreakerPolicy()
 {
     return HttpPolicyExtensions
