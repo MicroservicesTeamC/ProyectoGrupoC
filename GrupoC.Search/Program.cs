@@ -1,7 +1,8 @@
 using GrupoC.Search.Interfaces;
 using GrupoC.Search.Logs;
 using GrupoC.Search.Services;
-
+using Polly;
+using Polly.Extensions.Http;
 using NLog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,8 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
 
 
-using Polly;
-using Polly.Extensions.Http;
+
 
 var builder = WebApplication.CreateBuilder(args);
 var retryPolicy = GetRetryPolicy();
