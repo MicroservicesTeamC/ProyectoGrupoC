@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <ProjectName>GrupoC.AlbaranDeEntrega</ProjectName>
+  <ProjectName>GrupoC.Estanteria</ProjectName>
   <ProjectLanguage>C#</ProjectLanguage>
   <ProjectType>Product</ProjectType>
-  <ProjectGuid>af31b2d3-6405-46fc-81d1-dad11e2dc632</ProjectGuid>
-  <FullPath>D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\GrupoC.AlbaranDeEntrega.csproj</FullPath>
+  <ProjectGuid>6fa4f18b-4166-4aa2-860c-b792c9a1fff0</ProjectGuid>
+  <FullPath>D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\GrupoC.Estanteria.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
     <AnalysisResult Id="FilesToAnalyze" Location="D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\.sonarqube\conf\1\FilesToAnalyze.txt" />

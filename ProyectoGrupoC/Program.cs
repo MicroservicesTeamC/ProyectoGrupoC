@@ -7,9 +7,6 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-ConfigurationManager Configuration = builder.Configuration;
-
 SecretClientOptions options = new SecretClientOptions()
 {
     Retry =
@@ -20,7 +17,9 @@ SecretClientOptions options = new SecretClientOptions()
         Mode = RetryMode.Exponential
     }
 };
+
 var client = new SecretClient(new Uri(Environment.GetEnvironmentVariable("KEY_VAULT_URI", EnvironmentVariableTarget.User)), new DefaultAzureCredential(), options);
+
 
 KeyVaultSecret secret = client.GetSecret(Environment.GetEnvironmentVariable("SECRET_ALBARAN", EnvironmentVariableTarget.User));
 

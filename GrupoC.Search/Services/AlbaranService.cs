@@ -6,16 +6,16 @@ namespace GrupoC.Search.Services
 {
     public class AlbaranService : IAlbaranService
     {
-        private IHttpClientFactory httpClientFactory;
+        private readonly IHttpClientFactory httpClientFactory;
         public AlbaranService(IHttpClientFactory httpClientFactory)
         {
             this.httpClientFactory = httpClientFactory;
         }
-        public async Task<ICollection<Albaran>> GetAsync(int customerId)
+        public async Task<ICollection<Albaran>?> GetAsync(int estanteriaId)
         {
             var client = httpClientFactory.CreateClient("albaranService");
 
-            var response = await client.GetAsync($"api/Albaran/{customerId}");
+            var response = await client.GetAsync($"api/Albaran/{estanteriaId}");
             if (response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();

@@ -11,6 +11,6 @@ namespace GrupoC.Producto.DAL
 
         }
 
-        public DbSet<Models.Productos> Productos { get; set; }
+        public DbSet<Models.Productos>? Productos { get; set; }
     }
 }
