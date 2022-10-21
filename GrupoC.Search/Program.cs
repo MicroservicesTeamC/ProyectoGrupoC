@@ -10,9 +10,6 @@ var builder = WebApplication.CreateBuilder(args);
 LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
 
 
-
-
-var builder = WebApplication.CreateBuilder(args);
 var retryPolicy = GetRetryPolicy();
 var circuitBreakerPolicy = GetCircuitBreakerPolicy();
 
