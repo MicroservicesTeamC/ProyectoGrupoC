@@ -19,12 +19,16 @@ SecretClientOptions options = new SecretClientOptions()
     }
 };
 
-var client = new SecretClient(new Uri(Environment.GetEnvironmentVariable("KEY_VAULT_URI", EnvironmentVariableTarget.User)), new DefaultAzureCredential(), options);
+string secretValue = "";
+string? Uri = Environment.GetEnvironmentVariable("SECRET_ESTANTERIA", EnvironmentVariableTarget.User);
+if(Uri is not null)
+{
+    var client = new SecretClient(new Uri(Uri), new DefaultAzureCredential(), options);
+    KeyVaultSecret secret = client.GetSecret(Environment.GetEnvironmentVariable("SECRET_ESTANTERIA", EnvironmentVariableTarget.User));
+    secretValue = secret.Value;
+}
 
 
-KeyVaultSecret secret = client.GetSecret(Environment.GetEnvironmentVariable("SECRET_ESTANTERIA", EnvironmentVariableTarget.User));
-
-string secretValue = secret.Value;
 
 
 builder.Services.AddControllers();
