@@ -20,9 +20,9 @@ SecretClientOptions options = new SecretClientOptions()
         Mode = RetryMode.Exponential
     }
 };
-var client = new SecretClient(new Uri("https://clavesgrupoc.vault.azure.net/"), new DefaultAzureCredential(), options);
+var client = new SecretClient(new Uri(Environment.GetEnvironmentVariable("KEY_VAULT_URI", EnvironmentVariableTarget.User)), new DefaultAzureCredential(), options);
 
-KeyVaultSecret secret = client.GetSecret("ConnectionStringAlbaranes");
+KeyVaultSecret secret = client.GetSecret(Environment.GetEnvironmentVariable("SECRET_ALBARAN", EnvironmentVariableTarget.User));
 
 string secretValue = secret.Value;
 
