@@ -4,6 +4,6 @@ namespace GrupoC.Estanteria.DAL
 {
     public interface IEstanteriaProvider
     {
-        Task<Estanterias> GetAsnyc(int id);
+        Task<Estanterias?> GetAsnyc(int id);
     }
 }

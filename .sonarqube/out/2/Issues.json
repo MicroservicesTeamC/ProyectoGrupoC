@@ -12,31 +12,18 @@
       },
       "results": [
         {
-          "ruleId": "CS8618",
+          "ruleId": "CS8602",
           "level": "warning",
-          "message": "El elemento propiedad \"Productos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "message": "Desreferencia de una referencia posiblemente NULL.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Producto/DAL/ProductosContext.cs",
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Producto/Controllers/ProductoController.cs",
                 "region": {
-                  "startLine": 8,
-                  "startColumn": 16,
-                  "endLine": 8,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Producto/DAL/ProductosContext.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 40,
-                  "endLine": 14,
-                  "endColumn": 49
+                  "startLine": 22,
+                  "startColumn": 35,
+                  "endLine": 22,
+                  "endColumn": 68
                 }
               }
             }
@@ -46,123 +33,18 @@
           }
         },
         {
-          "ruleId": "CS8603",
+          "ruleId": "CS8625",
           "level": "warning",
-          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "message": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Producto/DAL/ProductoRepository.cs",
                 "region": {
-                  "startLine": 27,
-                  "startColumn": 20,
-                  "endLine": 27,
-                  "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8619",
-          "level": "warning",
-          "message": "La nulabilidad de los tipos de referencia en el valor de tipo \"Task<Productos?>\" no coincide con el tipo de destino \"Task<Productos>\".",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Producto/DAL/ProductoRepositoryFake.cs",
-                "region": {
-                  "startLine": 29,
-                  "startColumn": 20,
-                  "endLine": 29,
-                  "endColumn": 44
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S125",
-          "level": "warning",
-          "message": "Remove this commented out code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Producto/Controllers/ProductoController.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 9,
-                  "endLine": 12,
-                  "endColumn": 63
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S125",
-          "level": "warning",
-          "message": "Remove this commented out code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Producto/Controllers/ProductoController.cs",
-                "region": {
-                  "startLine": 20,
-                  "startColumn": 9,
-                  "endLine": 20,
-                  "endColumn": 12
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S125",
-          "level": "warning",
-          "message": "Remove this commented out code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Producto/Controllers/ProductoController.cs",
-                "region": {
-                  "startLine": 56,
-                  "startColumn": 9,
-                  "endLine": 56,
-                  "endColumn": 12
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S125",
-          "level": "warning",
-          "message": "Remove this commented out code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Producto/DAL/ProductoRepository.cs",
-                "region": {
-                  "startLine": 35,
-                  "startColumn": 9,
-                  "endLine": 35,
-                  "endColumn": 12
+                  "startLine": 23,
+                  "startColumn": 53,
+                  "endLine": 23,
+                  "endColumn": 57
                 }
               }
             }
@@ -180,10 +62,10 @@
               "resultFile": {
                 "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Producto/Program.cs",
                 "region": {
-                  "startLine": 21,
-                  "startColumn": 39,
-                  "endLine": 21,
-                  "endColumn": 78
+                  "startLine": 9,
+                  "startColumn": 14,
+                  "endLine": 9,
+                  "endColumn": 53
                 }
               }
             }
@@ -215,11 +97,11 @@
         }
       ],
       "rules": {
-        "CS8603": {
-          "id": "CS8603",
-          "shortDescription": "Posible tipo de valor devuelto de referencia nulo",
+        "CS8602": {
+          "id": "CS8602",
+          "shortDescription": "Desreferencia de una referencia posiblemente NULL.",
           "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8603)",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8602)",
           "properties": {
             "category": "Compiler",
             "isEnabledByDefault": true,
@@ -229,25 +111,11 @@
             ]
           }
         },
-        "CS8618": {
-          "id": "CS8618",
-          "shortDescription": "Un campo que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declararlo como que admite un valor NULL.",
+        "CS8625": {
+          "id": "CS8625",
+          "shortDescription": "No se puede convertir un literal NULL en un tipo de referencia que no acepta valores NULL.",
           "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
-          "properties": {
-            "category": "Compiler",
-            "isEnabledByDefault": true,
-            "tags": [
-              "Compiler",
-              "Telemetry"
-            ]
-          }
-        },
-        "CS8619": {
-          "id": "CS8619",
-          "shortDescription": "La nulabilidad de los tipos de referencia del valor no coincide con el tipo de destino",
-          "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8619)",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8625)",
           "properties": {
             "category": "Compiler",
             "isEnabledByDefault": true,
@@ -269,23 +137,6 @@
             "tags": [
               "C#",
               "MainSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
-        "S125": {
-          "id": "S125",
-          "shortDescription": "Sections of code should not be commented out",
-          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
-          "properties": {
-            "category": "Major Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "TestSourceScope",
               "SonarWay"
             ]
           }

@@ -14,15 +14,18 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "El elemento propiedad \"ProductoId\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "message": "El elemento propiedad \"Estanterias\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/ProyectoGrupoC/Models/AlbaranItem.cs",
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Estanteria/DAL/EstanteriaContext.cs",
                 "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
+                  "startLine": 8,
+                  "startColumn": 16,
+                  "endLine": 8,
                   "endColumn": 33
                 }
               }
@@ -31,141 +34,12 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/ProyectoGrupoC/Models/AlbaranItem.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 33
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"Productos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/ProyectoGrupoC/Models/Albaran.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 34,
-                  "endLine": 8,
-                  "endColumn": 43
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/ProyectoGrupoC/Models/Albaran.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 34,
-                  "endLine": 8,
-                  "endColumn": 43
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"Albaranes\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "suppressionStates": [
-            "suppressedInSource"
-          ],
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/ProyectoGrupoC/Context/AlbaranContext.cs",
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Estanteria/DAL/EstanteriaContext.cs",
                 "region": {
                   "startLine": 12,
-                  "startColumn": 16,
-                  "endLine": 12,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/ProyectoGrupoC/Context/AlbaranContext.cs",
-                "region": {
-                  "startLine": 17,
-                  "startColumn": 31,
-                  "endLine": 17,
-                  "endColumn": 40
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"AlbaranItems\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "suppressionStates": [
-            "suppressedInSource"
-          ],
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/ProyectoGrupoC/Context/AlbaranContext.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 16,
-                  "endLine": 12,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/ProyectoGrupoC/Context/AlbaranContext.cs",
-                "region": {
-                  "startLine": 18,
                   "startColumn": 35,
-                  "endLine": 18,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'Albaran' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/ProyectoGrupoC/DAL/AlbaranProviderFake.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 31,
-                  "endLine": 7,
-                  "endColumn": 38
+                  "endLine": 12,
+                  "endColumn": 46
                 }
               }
             }
@@ -181,54 +55,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/ProyectoGrupoC/Program.cs",
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Estanteria/Program.cs",
                 "region": {
-                  "startLine": 23,
-                  "startColumn": 39,
-                  "endLine": 23,
-                  "endColumn": 78
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1481",
-          "level": "warning",
-          "message": "Remove the unused local variable 'Configuration'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/ProyectoGrupoC/Program.cs",
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 22,
-                  "endLine": 11,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S927",
-          "level": "warning",
-          "message": "Rename parameter 'id' to 'estanteriaId' to match the interface declaration.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/ProyectoGrupoC/DAL/AlbaranProviderFake.cs",
-                "region": {
-                  "startLine": 67,
-                  "startColumn": 62,
-                  "endLine": 67,
-                  "endColumn": 64
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 53
                 }
               }
             }
@@ -265,57 +97,6 @@
             "tags": [
               "C#",
               "MainSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
-        "S1481": {
-          "id": "S1481",
-          "shortDescription": "Unused local variables should be removed",
-          "fullDescription": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
-          "properties": {
-            "category": "Minor Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "TestSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
-        "S2933": {
-          "id": "S2933",
-          "shortDescription": "Fields that are only assigned in the constructor should be \"readonly\"",
-          "fullDescription": "readonly fields can only be assigned in a class constructor. If a class has a field that’s not marked readonly but is only set in the constructor, it could cause confusion about the field’s intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2933",
-          "properties": {
-            "category": "Major Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "TestSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
-        "S927": {
-          "id": "S927",
-          "shortDescription": "Parameter names should match base declaration and other partial definitions",
-          "fullDescription": "The name of a parameter in an externally visible. This rule raises an issue when method override does not match the name of the parameter in the base declaration of the method, or the name of the parameter in the interface declaration of the method or the name of any other partial definition.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-927",
-          "properties": {
-            "category": "Critical Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "TestSourceScope",
               "SonarWay"
             ]
           }

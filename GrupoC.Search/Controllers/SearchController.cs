@@ -9,13 +9,11 @@ namespace GrupoC.Search.Controllers
     [ApiController]
     public class SearchController : ControllerBase
     {
-        private readonly IEstanteriaService estanteriaService;
         private readonly IProductoService productoService;
         private readonly IAlbaranService albaranService;
 
-        public SearchController(IEstanteriaService estanteriaService, IProductoService productoService, IAlbaranService albaranService)
+        public SearchController(IProductoService productoService, IAlbaranService albaranService)
         {
-            this.estanteriaService = estanteriaService;
             this.productoService = productoService;
             this.albaranService = albaranService;
         }
@@ -32,11 +30,18 @@ namespace GrupoC.Search.Controllers
                 {
                     foreach (var albaran in albaranes)
                     {
-                        foreach (var item in albaran.Productos)
+                        if(albaran.Productos is not null)
                         {
-                            var product = await productoService.GetAsync(item.ProductoId);
-                            item.Producto = product;
+                            foreach (var item in albaran.Productos)
+                            {
+                                var product = await productoService.GetAsync(item.ProductoId);
+                                if (product is not null)
+                                    item.Producto = product;
+                            }
                         }
+                            
+                        
+                       
                     }
                     return Ok(albaranes);
                 }
@@ -57,18 +62,20 @@ namespace GrupoC.Search.Controllers
         {
             try
             {
-                      var productos = await productoService.GetAllAsync();
-                var caducados = productos.FindAll(x => x.Caducidad <= DateTime.Now).ToList();
-                var noCaducados = productos.FindAll(x => x.Caducidad > DateTime.Now).ToList();
-                var resultado = new
-                {
-                    caducados = caducados,
-                    noCaducados = noCaducados
-                };
 
-                if (resultado.caducados.Count > 0 || resultado.noCaducados.Count > 0)
+                var productos = await productoService.GetAllAsync();
+                if(productos is not null)
                 {
+                    var caducados = productos.FindAll(x => x.Caducidad <= DateTime.Now).ToList();
+                    var noCaducados = productos.FindAll(x => x.Caducidad > DateTime.Now).ToList();
+                    var resultado = new
+                    {
+                        caducados = caducados,
+                        noCaducados = noCaducados
+                    };
+
                     return Ok(resultado);
+                    
                 }
                 else
                 {
