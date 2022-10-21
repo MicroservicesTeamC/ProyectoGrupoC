@@ -6,7 +6,6 @@ using Azure.Security.KeyVault.Secrets;
 using Azure.Core;
 
 var builder = WebApplication.CreateBuilder(args);
-string uri = "https://clavesgrupoc.vault.azure.net/";
 
 SecretClientOptions options = new SecretClientOptions()
 {
@@ -18,9 +17,11 @@ SecretClientOptions options = new SecretClientOptions()
         Mode = RetryMode.Exponential
     }
 };
-var client = new SecretClient(new Uri(uri), new DefaultAzureCredential(), options);
 
-KeyVaultSecret secret = client.GetSecret("ConnectionStringProductos");
+var client = new SecretClient(new Uri(Environment.GetEnvironmentVariable("KEY_VAULT_URI", EnvironmentVariableTarget.User)), new DefaultAzureCredential(), options);
+
+
+KeyVaultSecret secret = client.GetSecret(Environment.GetEnvironmentVariable("SECRET_PRODUCTO", EnvironmentVariableTarget.User));
 
 string secretValue = secret.Value;
 
