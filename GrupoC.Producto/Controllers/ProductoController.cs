@@ -20,11 +20,14 @@ namespace GrupoC.Producto.Controllers
         public async Task<IActionResult> GetAllAsync()
         {
             var productos = await _productoRepository.GetAllAsync();
-
-            if (productos.Count > 0)
+            if(productos is not null)
             {
-                return Ok(productos); 
+                if (productos.Count > 0)
+                {
+                    return Ok(productos);
+                }
             }
+           
             return NotFound();
 
         }

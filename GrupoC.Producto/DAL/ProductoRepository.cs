@@ -14,13 +14,14 @@ namespace GrupoC.Producto.DAL
         }
 
 
-        public Task<List<Productos>>? GetAllAsync()
+        public Task<List<Productos>?> GetAllAsync()
         {
             if (_context.Productos is not null)
             {
+
                 return _context.Productos.ToListAsync();
             }
-            return Task.FromResult<List<Productos>>(null);
+            return Task.FromResult<List<Productos>?>(null);
         }
 
         public async Task<Productos?> GetAsync(int id)

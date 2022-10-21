@@ -14,19 +14,19 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "El elemento propiedad \"Albaranes\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "message": "El elemento propiedad \"Estanterias\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
           "suppressionStates": [
             "suppressedInSource"
           ],
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/ProyectoGrupoC/Context/AlbaranContext.cs",
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Estanteria/DAL/EstanteriaContext.cs",
                 "region": {
-                  "startLine": 12,
+                  "startLine": 8,
                   "startColumn": 16,
-                  "endLine": 12,
-                  "endColumn": 30
+                  "endLine": 8,
+                  "endColumn": 33
                 }
               }
             }
@@ -34,49 +34,12 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/ProyectoGrupoC/Context/AlbaranContext.cs",
-                "region": {
-                  "startLine": 17,
-                  "startColumn": 31,
-                  "endLine": 17,
-                  "endColumn": 40
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "El elemento propiedad \"AlbaranItems\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
-          "suppressionStates": [
-            "suppressedInSource"
-          ],
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/ProyectoGrupoC/Context/AlbaranContext.cs",
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Estanteria/DAL/EstanteriaContext.cs",
                 "region": {
                   "startLine": 12,
-                  "startColumn": 16,
-                  "endLine": 12,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/ProyectoGrupoC/Context/AlbaranContext.cs",
-                "region": {
-                  "startLine": 18,
                   "startColumn": 35,
-                  "endLine": 18,
-                  "endColumn": 47
+                  "endLine": 12,
+                  "endColumn": 46
                 }
               }
             }
@@ -92,11 +55,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/ProyectoGrupoC/Program.cs",
+                "uri": "file:///D:/ProyectosProgramacion/VS/ProyectoMicroserviciosEquipoC/GrupoC/GrupoC.Estanteria/Program.cs",
                 "region": {
-                  "startLine": 9,
+                  "startLine": 8,
                   "startColumn": 14,
-                  "endLine": 9,
+                  "endLine": 8,
                   "endColumn": 53
                 }
               }

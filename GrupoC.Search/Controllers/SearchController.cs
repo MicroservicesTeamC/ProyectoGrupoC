@@ -28,15 +28,18 @@ namespace GrupoC.Search.Controllers
 
                 if (albaranes != null)
                 {
-                    foreach (var albaran in albaranes.Where(x => x.Productos is not null))
+                    foreach (var albaran in albaranes)
                     {
-
+                        if(albaran.Productos is not null)
+                        {
                             foreach (var item in albaran.Productos)
                             {
                                 var product = await productoService.GetAsync(item.ProductoId);
                                 if (product is not null)
                                     item.Producto = product;
                             }
+                        }
+                            
                         
                        
                     }
