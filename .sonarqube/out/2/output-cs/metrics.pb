@@ -2,8 +2,9 @@
 rD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Controllers\ProductoController.cs	 8r&	
  !"#$&'()+,./x‚	$&(+z
 kD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\IProductoRepository.csr		
-Ÿ
-jD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductoRepository.cs 8r	 !"'x‚ ®
+¤
+jD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductoRepository.cs 8r"	
+ !"#$%&',x‚!#%®
 nD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductoRepositoryFake.cs 8r&	
  !"$%&'()x‚	!&
 hD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\DAL\ProductosContext.cs 8r	

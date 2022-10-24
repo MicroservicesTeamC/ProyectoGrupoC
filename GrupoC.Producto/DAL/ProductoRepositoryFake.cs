@@ -4,7 +4,7 @@ namespace GrupoC.Producto.DAL
 {
     public class ProductoRepositoryFake : IProductoRepository
     {
-        private readonly List<Productos>? repo = new ();
+        private readonly List<Productos> repo = new ();
 
         public ProductoRepositoryFake()
         {
@@ -33,7 +33,7 @@ namespace GrupoC.Producto.DAL
             return Task.FromResult<Productos?>(null);
         }
 
-        public Task<List<Productos>?> GetAllAsync()
+        public Task<List<Productos>> GetAllAsync()
         {
             return Task.FromResult(repo);
         }
