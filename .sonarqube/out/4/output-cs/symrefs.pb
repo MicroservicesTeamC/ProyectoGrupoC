@@ -1,53 +1,25 @@
-ñ
-WD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\SearchTest\FakeData.cs
+Í
+_D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\TestProductos\ProductosTest.cs
 
-
- <
-& / $$ ** ,, $44# ,
+ 
 
-""$ 1
+ %
+ #< O
+ " +
+  #$ *
 
-'' '
-'', .,,E G(
-)) ,, --' ///# +
-,,4 5,,9 :
+ (
+ #< O
+ " +
+  #$ *
 
-22% 0
+$$ (
+&& #''= P
+'' #)) ,
+)) ++ #,,$ *
 
-88
- (
-::  %== >> @@# (
-
-;;! )
-
-;;. :
-@@8 9@@= >
-
-DD
- (
-FF (II __ dd. 7
-
-]]" +
-
-bb+ 3
-
-bb8 D
-dd" +ff# ,—
-YD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\SearchTest\SearchTest.cs
-
-		 
-
- %
- , 
- * 
-  " 2  0
-  ,$ 3
-  *$ 1
-
- (
-!! ,%% 
-"" *&& 
-$$  ((  0))" 2
-(( -- *..$ 1
-)) ++ ,,,$ 3W
-UD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\SearchTest\Usings.cs
+11 +
+33 #55= P
+55 #77 ,
+77 99 #::$ *Z
+XD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\TestProductos\Usings.cs

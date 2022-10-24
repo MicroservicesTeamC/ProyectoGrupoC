@@ -18,13 +18,14 @@ SecretClientOptions options = new SecretClientOptions()
     }
 };
 
-var client = new SecretClient(new Uri(Environment.GetEnvironmentVariable("KEY_VAULT_URI", EnvironmentVariableTarget.User)), new DefaultAzureCredential(), options);
-
-
-KeyVaultSecret secret = client.GetSecret(Environment.GetEnvironmentVariable("SECRET_ALBARAN", EnvironmentVariableTarget.User));
-
-string secretValue = secret.Value;
-
+string secretValue = "";
+string? Uri = Environment.GetEnvironmentVariable("KEY_VAULT_URI", EnvironmentVariableTarget.User);
+if(Uri is not null)
+{
+    var client = new SecretClient(new Uri(Uri), new DefaultAzureCredential(), options);
+    KeyVaultSecret secret = client.GetSecret(Environment.GetEnvironmentVariable("SECRET_ALBARAN", EnvironmentVariableTarget.User));
+    secretValue = secret.Value;
+}
 
 // Add services to the container.
 
