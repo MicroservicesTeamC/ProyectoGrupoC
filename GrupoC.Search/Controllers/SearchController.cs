@@ -57,7 +57,7 @@ namespace GrupoC.Search.Controllers
  
 
                 var productos = await productoService.GetAllAsync();
-                if(productos is not null)
+                if(productos is not null && productos.Count > 0)
                 {
                     var caducados = productos.FindAll(x => x.Caducidad <= DateTime.Now).ToList();
                     var noCaducados = productos.FindAll(x => x.Caducidad > DateTime.Now).ToList();
