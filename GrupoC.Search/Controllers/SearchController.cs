@@ -35,7 +35,8 @@ namespace GrupoC.Search.Controllers
                             foreach (var item in albaran)
                             {
                                 var product = await productoService.GetAsync(item.ProductoId);
-                                item.Producto = product;
+                                if(product is not null)
+                                    item.Producto = product;
                             }
                         }                             
                     }
