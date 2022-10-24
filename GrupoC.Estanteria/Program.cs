@@ -20,7 +20,7 @@ SecretClientOptions options = new SecretClientOptions()
 };
 
 string secretValue = "";
-string? Uri = Environment.GetEnvironmentVariable("SECRET_ESTANTERIA", EnvironmentVariableTarget.User);
+string? Uri = Environment.GetEnvironmentVariable("KEY_VAULT_URI", EnvironmentVariableTarget.User);
 if(Uri is not null)
 {
     var client = new SecretClient(new Uri(Uri), new DefaultAzureCredential(), options);
