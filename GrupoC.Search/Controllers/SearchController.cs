@@ -22,8 +22,6 @@ namespace GrupoC.Search.Controllers
         [HttpGet("albaran/{estanteriaId}")]
         public async Task<IActionResult> AlbaranAsync(int estanteriaId)
         {
-            try
-            {
                 var albaranes = await albaranService.GetAsync(estanteriaId);
                
 
@@ -51,18 +49,12 @@ namespace GrupoC.Search.Controllers
                     return NotFound();
                 }
                 
-            }
-            catch (Exception)
-            {
-                throw new AlbaranNotFoundException("Prueba de excepcion");
-            }
         }
 
         [HttpGet("caducidad")]
         public async Task<IActionResult> CaducidadAsync()
         {
-            try
-            {
+ 
 
                 var productos = await productoService.GetAllAsync();
                 if(productos is not null)
@@ -83,11 +75,8 @@ namespace GrupoC.Search.Controllers
                     return NotFound();
                 }
                 
-            }
-            catch (Exception)
-            {
-                return BadRequest();
-            }
-                                  }
+            
+
+        }
     }
 }
