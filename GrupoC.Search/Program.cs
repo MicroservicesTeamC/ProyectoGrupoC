@@ -1,9 +1,11 @@
+using GrupoC.Search.Exceptions;
 using GrupoC.Search.Interfaces;
 using GrupoC.Search.Logs;
 using GrupoC.Search.Services;
 using Polly;
 using Polly.Extensions.Http;
 using NLog;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -53,9 +55,14 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
-{
+{ 
     app.UseSwagger();
     app.UseSwaggerUI();
+}
+
+if (app.Environment.IsProduction())
+{
+    app.UseExceptionMiddleware();
 }
 
 
@@ -72,7 +79,7 @@ static IAsyncPolicy<HttpResponseMessage> GetCircuitBreakerPolicy()
 {
     return HttpPolicyExtensions
         .HandleTransientHttpError()
-        .CircuitBreakerAsync(5, TimeSpan.FromSeconds(30));
+        .CircuitBreakerAsync(2, TimeSpan.FromSeconds(5));
 }
 
 static IAsyncPolicy<HttpResponseMessage> GetRetryPolicy()
@@ -80,6 +87,6 @@ static IAsyncPolicy<HttpResponseMessage> GetRetryPolicy()
     return HttpPolicyExtensions
         .HandleTransientHttpError()
         .OrResult(msg => msg.StatusCode == System.Net.HttpStatusCode.NotFound)
-        .WaitAndRetryAsync(6, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2,
+        .WaitAndRetryAsync(2, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2,
             retryAttempt)));
 }

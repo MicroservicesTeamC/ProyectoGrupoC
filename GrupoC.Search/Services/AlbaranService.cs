@@ -1,4 +1,7 @@
-﻿using GrupoC.Search.Interfaces;
+﻿using System.Reflection;
+using System.Resources;
+using GrupoC.Search.Exceptions;
+using GrupoC.Search.Interfaces;
 using GrupoC.Search.Logs;
 using GrupoC.Search.Models;
 using Newtonsoft.Json;
@@ -9,6 +12,7 @@ namespace GrupoC.Search.Services
     {
         private IHttpClientFactory httpClientFactory;
         readonly ILoggerManager LoggerManager;
+        readonly ResourceManager resourceManager = new("GrupoC.Search.Resources.ExceptionMessages", Assembly.GetExecutingAssembly());
         public AlbaranService(IHttpClientFactory httpClientFactory, ILoggerManager loggerManager)
 
         {
@@ -30,7 +34,8 @@ namespace GrupoC.Search.Services
                 return orders;
             }
 
-            return null;
+            this.LoggerManager.LogWarn(resourceManager.GetString("AlbaranNotFound"));
+            throw new AlbaranNotFoundException(resourceManager.GetString("AlbaranNotFound"));
         }
     }
 }

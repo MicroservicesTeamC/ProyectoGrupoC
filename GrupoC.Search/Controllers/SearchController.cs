@@ -1,4 +1,5 @@
-﻿using GrupoC.Search.Interfaces;
+﻿using GrupoC.Search.Exceptions;
+using GrupoC.Search.Interfaces;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
@@ -21,8 +22,6 @@ namespace GrupoC.Search.Controllers
         [HttpGet("albaran/{estanteriaId}")]
         public async Task<IActionResult> AlbaranAsync(int estanteriaId)
         {
-            try
-            {
                 var albaranes = await albaranService.GetAsync(estanteriaId);
                
 
@@ -47,21 +46,15 @@ namespace GrupoC.Search.Controllers
                     return NotFound();
                 }
                 
-            }
-            catch (Exception)
-            {
-                return BadRequest();
-            }
         }
 
         [HttpGet("caducidad")]
         public async Task<IActionResult> CaducidadAsync()
         {
-            try
-            {
+ 
 
                 var productos = await productoService.GetAllAsync();
-                if(productos is not null)
+                if(productos is not null && productos.Count > 0)
                 {
                     var caducados = productos.FindAll(x => x.Caducidad <= DateTime.Now).ToList();
                     var noCaducados = productos.FindAll(x => x.Caducidad > DateTime.Now).ToList();
@@ -79,11 +72,8 @@ namespace GrupoC.Search.Controllers
                     return NotFound();
                 }
                 
-            }
-            catch (Exception)
-            {
-                return BadRequest();
-            }
-                                  }
+            
+
+        }
     }
 }
