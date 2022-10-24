@@ -1,4 +1,5 @@
-﻿using GrupoC.Search.Interfaces;
+﻿using GrupoC.Search.Exceptions;
+using GrupoC.Search.Interfaces;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
@@ -53,7 +54,7 @@ namespace GrupoC.Search.Controllers
             }
             catch (Exception)
             {
-                return BadRequest();
+                throw new AlbaranNotFoundException("Prueba de excepcion");
             }
         }
 

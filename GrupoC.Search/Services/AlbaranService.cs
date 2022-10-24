@@ -34,6 +34,7 @@ namespace GrupoC.Search.Services
                 return orders;
             }
 
+            this.LoggerManager.LogWarn(resourceManager.GetString("AlbaranNotFound"));
             throw new AlbaranNotFoundException(resourceManager.GetString("AlbaranNotFound"));
         }
     }
