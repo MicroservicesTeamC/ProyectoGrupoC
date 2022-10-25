@@ -36,14 +36,14 @@ builder.Services.AddHttpClient("productosService", c =>
 })
     .SetHandlerLifetime(TimeSpan.FromMinutes(5))
     .AddPolicyHandler(retryPolicy)
-    .AddPolicyHandler(circuitBreakerPolicy); ;
+    .AddPolicyHandler(circuitBreakerPolicy); 
 builder.Services.AddHttpClient("albaranService", c =>
 {
     c.BaseAddress = new Uri(configuration["Services:Albaranes"]);
 })
     .SetHandlerLifetime(TimeSpan.FromMinutes(5))
     .AddPolicyHandler(retryPolicy)
-    .AddPolicyHandler(circuitBreakerPolicy); ;
+    .AddPolicyHandler(circuitBreakerPolicy); 
 
 LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
 builder.Services.AddSingleton<ILoggerManager, LoggerManager>(); 

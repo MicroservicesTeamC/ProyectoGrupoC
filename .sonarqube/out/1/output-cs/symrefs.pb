@@ -1,80 +1,152 @@
-ü
-vD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Controllers\EstanteriaController.cs
+¤
+nD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Controllers\SearchController.cs
 
- %
 
 
-- ? # 1
-8 J& 8
+ !(
+* 9  %%4 C>>& 5
+) 7 & 4
+1 @# 2
+R `" 0
 
-) 1
-6 8; =
-  * 0¥
-kD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\DAL\EstanteriaContext.cs
- "2 C
-E L		 
+) 5
+: F> J(
+  , 5** '
+< =A B
+a bf g
+%%$ +&&0 7
 
-" -Ü
-lD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\DAL\EstanteriaProvider.cs
+99) 7(
+>> ?? AA$ -BB& /
+AA !EE$ -
+AA6 7AA; <
+BB #FF& 1
+BB8 9BB= >
+CC !II '’
+lD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Interfaces\IAlbaranService.cs
 
- #(
-+ 3
+ $
+
+$ ,
+
+1 =•
+oD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Interfaces\IEstanteriaService.cs
+
+ '
+
+ "
+
+' 3Ÿ
+mD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Interfaces\IProductoService.cs
+
+ %
+
+  
+
+% '
+
+ )ž
+`D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Models\Albaran.cs
+
+ 
+
+ 
+
+ #
+
+ 
+
+" +®
+dD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Models\AlbaranItem.cs
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+		 !•
+cD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Models\Estanteria.cs
+
+ 
+
+ 
+
+ 
+
+ «
+aD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Models\Producto.cs
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+		 !
+YD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Program.csf
+ 		% ,      '' (( )) ++
+ (
+  ! !$$ !(
+  * *%% *(
+		 " ) )!! )
+5 6 
+3 4 
+1 2!! @
+++ .. 00 11 55 77 99 
+>>) @ 2
+EE) 7  
+II II 
+JJ *KK ±
+iD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Services\AlbaranService.cs
+
+ 
+		, = " *
+
 
-   %
-4 ;
-
- 
+1 B% 6
 
-( 0
-5 7< >Š
-pD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\DAL\EstanteriaProviderFake.cs
+1 9
+> J@ L
+ ! '
+  $ ,
+ Q X
+  ´
+lD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Services\EstanteriaService.cs
 
- '<
-+ 6
-
-     &
+ "
+		, = " *
+4 E% 6
 
-( 0
-5 7C E
- ) 1
-6 7; <“
-mD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\DAL\IEstanteriaProvider.cs
+' /
+4 @C O
+ ! '
+  $ ,
+ G N
+  «
+kD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Search\Services\ProductosService.cs
 
- (
+ !(
+		, = " *   *
+3 D% 6
 
- #
+% -
+2 4A C
+ ! '
+  $ ,
+ F M
+  
 
-( *¥
-}D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Migrations\20221020083250_InitialCreate.cs
-
- &
-
-  "
-4 D (
-      %
- " 
-7 8< =
-
-  $
-6 F š
-hD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Models\Estanterias.cs
-
- 
-
- 
-
- 
-
-		 ã
-]D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Estanteria\Program.cs<
-       !! &&
- 
- 
-& )
- J Q
- 
- 
-  
- "") 4
-!!1 8"" @
-&& )) ++ ,, 00 22 44 
++ 6
+   ""! '
+"" ## %%$ ,
+%% &&M T
+&& (( 

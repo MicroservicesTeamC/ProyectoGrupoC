@@ -1,5 +1,6 @@
 ﻿using GrupoC.Producto.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
 
 
 namespace GrupoC.Producto.DAL
@@ -14,14 +15,17 @@ namespace GrupoC.Producto.DAL
         }
 
 
-        public Task<List<Productos>?> GetAllAsync()
+        public Task<List<Productos>> GetAllAsync()
         {
             if (_context.Productos is not null)
             {
-
                 return _context.Productos.ToListAsync();
             }
-            return Task.FromResult<List<Productos>?>(null);
+            else
+            {
+                List<Productos> listaVacia = new List<Productos>();
+                return Task.FromResult(listaVacia);
+            }
         }
 
         public async Task<Productos?> GetAsync(int id)

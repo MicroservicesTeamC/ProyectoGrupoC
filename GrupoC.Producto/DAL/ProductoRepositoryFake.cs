@@ -4,14 +4,14 @@ namespace GrupoC.Producto.DAL
 {
     public class ProductoRepositoryFake : IProductoRepository
     {
-        private readonly List<Productos> repo = new List<Productos>();
+        private readonly List<Productos> repo = new ();
 
         public ProductoRepositoryFake()
         {
             for (int i = 0; i < 100; i++)
             {
-                Random r = new Random();
-                repo.Add(new Models.Productos()
+                Random r = new();
+                repo.Add(new Productos()
                 {
                     Id = (i + 1),
                     Nombre = $"Producto {i + 1}",
@@ -25,11 +25,15 @@ namespace GrupoC.Producto.DAL
         }
         public Task<Productos?> GetAsync(int id)
         {
-            var product = repo.FirstOrDefault(p => p.Id == id);
-            return Task.FromResult(product);
+            if(repo is not null)
+            {
+                var product = repo.FirstOrDefault(p => p.Id == id);
+                return Task.FromResult(product);
+            }
+            return Task.FromResult<Productos?>(null);
         }
 
-        public Task<List<Productos>>? GetAllAsync()
+        public Task<List<Productos>> GetAllAsync()
         {
             return Task.FromResult(repo);
         }
