@@ -14,8 +14,9 @@ namespace GrupoC.Estanteria.Migrations
                 name: "Estanterias",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Capacidad = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>

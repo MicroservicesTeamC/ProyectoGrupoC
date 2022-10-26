@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GrupoC.Estanteria.Migrations
 {
     [DbContext(typeof(EstanteriaContext))]
-    [Migration("20221020083250_InitialCreate")]
+    [Migration("20221026080629_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -26,14 +26,16 @@ namespace GrupoC.Estanteria.Migrations
 
             modelBuilder.Entity("GrupoC.Estanteria.Models.Estanterias", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("Capacidad")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
