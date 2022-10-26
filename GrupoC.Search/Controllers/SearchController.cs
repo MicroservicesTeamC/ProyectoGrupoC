@@ -41,10 +41,9 @@ namespace GrupoC.Search.Controllers
                     }
                     return Ok(albaranes);
                 }
-                else
-                {
-                    return NotFound();
-                }
+
+                return NotFound();
+                
                 
         }
 

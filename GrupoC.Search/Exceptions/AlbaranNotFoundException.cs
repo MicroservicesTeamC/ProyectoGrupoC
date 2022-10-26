@@ -1,4 +1,6 @@
-﻿namespace GrupoC.Search.Exceptions
+﻿using System.Runtime.Serialization;
+
+namespace GrupoC.Search.Exceptions
 {
     [Serializable]
     public class AlbaranNotFoundException : Exception

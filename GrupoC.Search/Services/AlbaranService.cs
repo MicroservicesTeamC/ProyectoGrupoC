@@ -10,7 +10,7 @@ namespace GrupoC.Search.Services
 {
     public class AlbaranService : IAlbaranService
     {
-        private IHttpClientFactory httpClientFactory;
+        private readonly IHttpClientFactory httpClientFactory;
         readonly ILoggerManager LoggerManager;
         readonly ResourceManager resourceManager = new("GrupoC.Search.Resources.ExceptionMessages", Assembly.GetExecutingAssembly());
         public AlbaranService(IHttpClientFactory httpClientFactory, ILoggerManager loggerManager)
@@ -33,9 +33,19 @@ namespace GrupoC.Search.Services
                 var orders = JsonConvert.DeserializeObject<ICollection<Albaran>>(content);
                 return orders;
             }
+            if (resourceManager is not null)
+            {
+                string? mensajeError = resourceManager.GetString("AlbaranNotFound");
+                if (mensajeError != null)
+                {
+                    this.LoggerManager.LogWarn(mensajeError);
+                    throw new AlbaranNotFoundException(mensajeError);
+                }   
+               
+            }
+            return null;
 
-            this.LoggerManager.LogWarn(resourceManager.GetString("AlbaranNotFound"));
-            throw new AlbaranNotFoundException(resourceManager.GetString("AlbaranNotFound"));
+
         }
     }
 }

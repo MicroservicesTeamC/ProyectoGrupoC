@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GrupoC.Producto.Migrations
 {
     [DbContext(typeof(ProductosContext))]
-    [Migration("20221019075811_InitialCreate")]
+    [Migration("20221026070011_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,7 +24,7 @@ namespace GrupoC.Producto.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("GrupoC.Producto.Models.Producto", b =>
+            modelBuilder.Entity("GrupoC.Producto.Models.Productos", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -32,7 +32,7 @@ namespace GrupoC.Producto.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<DateTime?>("FechaAlta")
+                    b.Property<DateTime?>("FechaCaducidad")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Nombre")

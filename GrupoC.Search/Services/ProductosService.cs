@@ -48,8 +48,13 @@ namespace GrupoC.Search.Services
 
                 return products;
             }
-
-            throw new ProductoNotFoundException(resourceManager.GetString("ProductoNotFound"));
+            if(resourceManager is not null)
+            {
+                string? mensajeError = resourceManager.GetString("ProductoNotFound");
+                if (mensajeError != null)
+                    throw new ProductoNotFoundException(mensajeError);
+            }
+            return null;           
         }
     }
 }

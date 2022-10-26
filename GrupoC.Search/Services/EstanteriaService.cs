@@ -36,8 +36,15 @@ namespace GrupoC.Search.Services
 
                 return orders;
             }
-
-            throw new EstanteriaNotFoundException(resourceManager.GetString("EstanteriaNotFound"));
+            if(resourceManager is not null)
+            {
+                string? mensajeError = resourceManager.GetString("EstanteriaNotFound");
+                if (mensajeError is not null)
+                {
+                    throw new EstanteriaNotFoundException(mensajeError);
+                }                
+            }
+            return null;         
         }
     }
 }
