@@ -1,27 +1,28 @@
 ﻿using GrupoC.Search.Logs;
 
-public class ExceptionMiddleware
+namespace GrupoC.Search.Exceptions
 {
-    private readonly RequestDelegate _next;
-    private readonly ILoggerManager _loggerManager;
-    public ExceptionMiddleware(RequestDelegate next,ILoggerManager loggerManager)
+    public class ExceptionMiddleware
     {
-        _next = next;
-        _loggerManager = loggerManager;
-    }
-    public async Task InvokeAsync(HttpContext httpContext)
-    {
-        try
+        private readonly RequestDelegate _next;
+        private readonly ILoggerManager _loggerManager;
+        public ExceptionMiddleware(RequestDelegate next, ILoggerManager loggerManager)
         {
-            await _next(httpContext);
+            _next = next;
+            _loggerManager = loggerManager;
         }
-        catch (Exception ex)
+        public async Task InvokeAsync(HttpContext httpContext)
         {
-            _loggerManager.LogError($"excepcion en el lanzamiento de excepciones: {ex.ToString()}");
-            //Add logging code to log exception details
-            httpContext.Response.Redirect("/");
+            try
+            {
+                await _next(httpContext);
+            }
+            catch (Exception ex)
+            {
+                _loggerManager.LogError($"excepcion en el lanzamiento de excepciones: {ex.ToString()}");
+                //Add logging code to log exception details
+                httpContext.Response.Redirect("/");
+            }
         }
     }
 }
-
-

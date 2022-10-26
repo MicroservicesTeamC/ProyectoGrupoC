@@ -1,6 +1,6 @@
-projectKey=ProyectoGrupoC
+projectKey=grupoC
 serverUrl=http://localhost:9000
 serverVersion=9.7.0.61563
-dashboardUrl=http://localhost:9000/dashboard?id=ProyectoGrupoC
-ceTaskId=AYP6iYH2vzuaL_PRDqDl
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AYP6iYH2vzuaL_PRDqDl
+dashboardUrl=http://localhost:9000/dashboard?id=grupoC
+ceTaskId=AYQTDLHKAZ9hL9kkljQS
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYQTDLHKAZ9hL9kkljQS

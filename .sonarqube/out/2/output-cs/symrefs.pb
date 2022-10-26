@@ -1,12 +1,12 @@
-®
+¸
 rD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Controllers\ProductoController.cs
 
 		 #(
 - @ " 5$$! 4
 6 I" 5
 
-) 4
-   #
+) 4(
+  ( 1 #
 
 "") 1
 ""6 8$$> @

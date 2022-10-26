@@ -1,4 +1,4 @@
-¯
+™
 rD:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\GrupoC.Producto\Controllers\ProductoController.cs
 	namespace 	
 GrupoC
@@ -80,8 +80,14 @@ Controller		& 0
 	productos 
 is 
 not 
-null  $
-)$ %
+null  $
+&&% '
+	productos( 1
+.1 2
+Count2 7
+>8 9
+$num: ;
+); <
 { 
 return 
 Ok 

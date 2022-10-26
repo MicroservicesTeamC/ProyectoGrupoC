@@ -15,6 +15,6 @@ namespace GrupoC.Producto.Models
         [Required(ErrorMessage = "El tipo es requerido")]
         public int TipoProducto { get; set; }
 
-        public DateTime? FechaAlta { get; set; }
+        public DateTime? FechaCaducidad { get; set; }
     }
 }

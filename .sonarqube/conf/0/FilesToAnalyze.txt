@@ -15,4 +15,5 @@ D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\
 D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\obj\Debug\net6.0\GrupoC.AlbaranDeEntrega.MvcApplicationPartsAssemblyInfo.cs
 D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\appsettings.Development.json
 D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\appsettings.json
+D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Dockerfile
 D:\ProyectosProgramacion\VS\ProyectoMicroserviciosEquipoC\GrupoC\ProyectoGrupoC\Properties\launchSettings.json

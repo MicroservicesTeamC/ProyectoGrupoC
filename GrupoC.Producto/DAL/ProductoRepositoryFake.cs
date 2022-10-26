@@ -16,7 +16,7 @@ namespace GrupoC.Producto.DAL
                     Id = (i + 1),
                     Nombre = $"Producto {i + 1}",
                     Precio = (double)i * Math.PI,
-                    FechaAlta = new DateTime(2022, 10, r.Next(1, 31))
+                    FechaCaducidad = new DateTime(2022, 10, r.Next(1, 31))
                 });
             }
         }
