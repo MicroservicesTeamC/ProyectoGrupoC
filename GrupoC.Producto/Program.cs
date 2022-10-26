@@ -18,11 +18,11 @@ SecretClientOptions options = new SecretClientOptions()
     }
 };
 string secretValue = "";
-string? Uri = Environment.GetEnvironmentVariable("KEY_VAULT_URI", EnvironmentVariableTarget.User);
-if( Uri is not null)
+string? Uri = "https://clavesgrupoc.vault.azure.net";
+if (Uri is not null)
 {
     var client = new SecretClient(new Uri(Uri), new DefaultAzureCredential(), options);
-    KeyVaultSecret secret = client.GetSecret(Environment.GetEnvironmentVariable("SECRET_PRODUCTO", EnvironmentVariableTarget.User));
+    KeyVaultSecret secret = client.GetSecret("ConnectionStringProductos");
     secretValue = secret.Value;
 }
 
@@ -33,7 +33,6 @@ builder.Services.AddControllers();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IProductoRepository, ProductoRepository>();
 builder.Services.AddDbContext<ProductosContext>(options =>
                     options.UseSqlServer(secretValue)
@@ -42,11 +41,6 @@ builder.Services.AddDbContext<ProductosContext>(options =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
 
 
 app.UseAuthorization();
